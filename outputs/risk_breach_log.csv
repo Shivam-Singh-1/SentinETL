@@ -1,0 +1,1052 @@
+scenario,rule_id,severity,company_id,ticker,sector,issue,current_value,expected_value
+base_case,COLL001,High,CMP0001,C001,Banking,Base collateral coverage below threshold,1.0403,>= 1.05x
+base_case,COLL001,High,CMP0002,C002,Energy,Base collateral coverage below threshold,0.9237,>= 1.05x
+base_case,COLL002,High,CMP0002,C002,Energy,Stressed collateral coverage below 1.0x,0.9237,>= 1.00x
+base_case,COLL001,High,CMP0003,C003,Consumer,Base collateral coverage below threshold,0.9781,>= 1.05x
+base_case,COLL002,High,CMP0003,C003,Consumer,Stressed collateral coverage below 1.0x,0.9781,>= 1.00x
+base_case,COLL001,High,CMP0005,C005,Manufacturing,Base collateral coverage below threshold,0.8851,>= 1.05x
+base_case,COLL002,High,CMP0005,C005,Manufacturing,Stressed collateral coverage below 1.0x,0.8851,>= 1.00x
+base_case,LIQ001,High,CMP0006,C006,Energy,LCR below 100% minimum threshold,76.3616,>= 100%
+base_case,COLL001,High,CMP0006,C006,Energy,Base collateral coverage below threshold,0.8832,>= 1.05x
+base_case,COLL002,High,CMP0006,C006,Energy,Stressed collateral coverage below 1.0x,0.8832,>= 1.00x
+base_case,COLL001,High,CMP0007,C007,Banking,Base collateral coverage below threshold,0.8873,>= 1.05x
+base_case,COLL002,High,CMP0007,C007,Banking,Stressed collateral coverage below 1.0x,0.8873,>= 1.00x
+base_case,LIQ001,High,CMP0009,C009,NBFC,LCR below 100% minimum threshold,77.5897,>= 100%
+base_case,COLL001,High,CMP0009,C009,NBFC,Base collateral coverage below threshold,0.913,>= 1.05x
+base_case,COLL002,High,CMP0009,C009,NBFC,Stressed collateral coverage below 1.0x,0.913,>= 1.00x
+base_case,LIQ001,High,CMP0011,C011,Technology,LCR below 100% minimum threshold,93.4955,>= 100%
+base_case,COLL001,High,CMP0011,C011,Technology,Base collateral coverage below threshold,0.9216,>= 1.05x
+base_case,COLL002,High,CMP0011,C011,Technology,Stressed collateral coverage below 1.0x,0.9216,>= 1.00x
+base_case,LIQ001,High,CMP0012,C012,Healthcare,LCR below 100% minimum threshold,79.2447,>= 100%
+base_case,HEDGE001,Medium,CMP0013,C013,Consumer,Hedge ratio outside 80%-125% control band,0.7267,0.80 to 1.25
+base_case,LIQ001,High,CMP0014,C014,Energy,LCR below 100% minimum threshold,96.242,>= 100%
+base_case,HEDGE001,Medium,CMP0015,C015,Consumer,Hedge ratio outside 80%-125% control band,0.748,0.80 to 1.25
+base_case,COLL001,High,CMP0015,C015,Consumer,Base collateral coverage below threshold,1.0382,>= 1.05x
+base_case,LIQ001,High,CMP0017,C017,Technology,LCR below 100% minimum threshold,93.9653,>= 100%
+base_case,COLL001,High,CMP0017,C017,Technology,Base collateral coverage below threshold,1.0312,>= 1.05x
+base_case,LIQ001,High,CMP0018,C018,NBFC,LCR below 100% minimum threshold,84.1757,>= 100%
+base_case,HEDGE001,Medium,CMP0021,C021,Technology,Hedge ratio outside 80%-125% control band,1.3359,0.80 to 1.25
+base_case,HEDGE001,Medium,CMP0022,C022,Insurance,Hedge ratio outside 80%-125% control band,0.7895,0.80 to 1.25
+base_case,COLL001,High,CMP0024,C024,Healthcare,Base collateral coverage below threshold,0.9438,>= 1.05x
+base_case,COLL002,High,CMP0024,C024,Healthcare,Stressed collateral coverage below 1.0x,0.9438,>= 1.00x
+base_case,COLL001,High,CMP0025,C025,Energy,Base collateral coverage below threshold,1.0381,>= 1.05x
+base_case,LIQ001,High,CMP0028,C028,Energy,LCR below 100% minimum threshold,99.7586,>= 100%
+base_case,HEDGE001,Medium,CMP0031,C031,Manufacturing,Hedge ratio outside 80%-125% control band,0.7469,0.80 to 1.25
+base_case,COLL001,High,CMP0032,C032,NBFC,Base collateral coverage below threshold,0.9165,>= 1.05x
+base_case,COLL002,High,CMP0032,C032,NBFC,Stressed collateral coverage below 1.0x,0.9165,>= 1.00x
+base_case,COLL001,High,CMP0033,C033,Banking,Base collateral coverage below threshold,0.9736,>= 1.05x
+base_case,COLL002,High,CMP0033,C033,Banking,Stressed collateral coverage below 1.0x,0.9736,>= 1.00x
+base_case,HEDGE001,Medium,CMP0035,C035,Healthcare,Hedge ratio outside 80%-125% control band,1.3535,0.80 to 1.25
+base_case,COLL001,High,CMP0035,C035,Healthcare,Base collateral coverage below threshold,0.9401,>= 1.05x
+base_case,COLL002,High,CMP0035,C035,Healthcare,Stressed collateral coverage below 1.0x,0.9401,>= 1.00x
+base_case,HEDGE001,Medium,CMP0036,C036,Banking,Hedge ratio outside 80%-125% control band,0.6269,0.80 to 1.25
+base_case,HEDGE001,Medium,CMP0037,C037,Energy,Hedge ratio outside 80%-125% control band,0.7719,0.80 to 1.25
+base_case,LIQ001,High,CMP0041,C041,NBFC,LCR below 100% minimum threshold,83.7141,>= 100%
+base_case,COLL001,High,CMP0041,C041,NBFC,Base collateral coverage below threshold,1.0114,>= 1.05x
+base_case,COLL001,High,CMP0042,C042,Energy,Base collateral coverage below threshold,1.0453,>= 1.05x
+base_case,COLL001,High,CMP0044,C044,Insurance,Base collateral coverage below threshold,1.0259,>= 1.05x
+base_case,HEDGE001,Medium,CMP0045,C045,Banking,Hedge ratio outside 80%-125% control band,0.5696,0.80 to 1.25
+base_case,COLL001,High,CMP0046,C046,Healthcare,Base collateral coverage below threshold,1.0146,>= 1.05x
+base_case,COLL001,High,CMP0048,C048,Healthcare,Base collateral coverage below threshold,0.9285,>= 1.05x
+base_case,COLL002,High,CMP0048,C048,Healthcare,Stressed collateral coverage below 1.0x,0.9285,>= 1.00x
+base_case,LIQ001,High,CMP0049,C049,Consumer,LCR below 100% minimum threshold,91.6385,>= 100%
+base_case,COLL001,High,CMP0049,C049,Consumer,Base collateral coverage below threshold,0.9132,>= 1.05x
+base_case,COLL002,High,CMP0049,C049,Consumer,Stressed collateral coverage below 1.0x,0.9132,>= 1.00x
+base_case,COLL001,High,CMP0051,C051,Energy,Base collateral coverage below threshold,1.0174,>= 1.05x
+base_case,LIQ001,High,CMP0053,C053,Insurance,LCR below 100% minimum threshold,89.0173,>= 100%
+base_case,COLL001,High,CMP0053,C053,Insurance,Base collateral coverage below threshold,0.9462,>= 1.05x
+base_case,COLL002,High,CMP0053,C053,Insurance,Stressed collateral coverage below 1.0x,0.9462,>= 1.00x
+base_case,LIQ001,High,CMP0054,C054,Manufacturing,LCR below 100% minimum threshold,98.2833,>= 100%
+base_case,HEDGE001,Medium,CMP0055,C055,Manufacturing,Hedge ratio outside 80%-125% control band,0.7829,0.80 to 1.25
+base_case,COLL001,High,CMP0055,C055,Manufacturing,Base collateral coverage below threshold,0.8839,>= 1.05x
+base_case,COLL002,High,CMP0055,C055,Manufacturing,Stressed collateral coverage below 1.0x,0.8839,>= 1.00x
+base_case,COLL001,High,CMP0056,C056,Banking,Base collateral coverage below threshold,0.9409,>= 1.05x
+base_case,COLL002,High,CMP0056,C056,Banking,Stressed collateral coverage below 1.0x,0.9409,>= 1.00x
+base_case,COLL001,High,CMP0057,C057,Technology,Base collateral coverage below threshold,0.9097,>= 1.05x
+base_case,COLL002,High,CMP0057,C057,Technology,Stressed collateral coverage below 1.0x,0.9097,>= 1.00x
+base_case,COLL001,High,CMP0058,C058,NBFC,Base collateral coverage below threshold,0.9957,>= 1.05x
+base_case,COLL002,High,CMP0058,C058,NBFC,Stressed collateral coverage below 1.0x,0.9957,>= 1.00x
+base_case,COLL001,High,CMP0060,C060,Consumer,Base collateral coverage below threshold,0.9655,>= 1.05x
+base_case,COLL002,High,CMP0060,C060,Consumer,Stressed collateral coverage below 1.0x,0.9655,>= 1.00x
+base_case,LIQ001,High,CMP0061,C061,Healthcare,LCR below 100% minimum threshold,77.6407,>= 100%
+base_case,COLL001,High,CMP0061,C061,Healthcare,Base collateral coverage below threshold,0.9975,>= 1.05x
+base_case,COLL002,High,CMP0061,C061,Healthcare,Stressed collateral coverage below 1.0x,0.9975,>= 1.00x
+base_case,LIQ001,High,CMP0062,C062,Consumer,LCR below 100% minimum threshold,85.4346,>= 100%
+base_case,COLL001,High,CMP0063,C063,Insurance,Base collateral coverage below threshold,1.0218,>= 1.05x
+base_case,COLL001,High,CMP0064,C064,Healthcare,Base collateral coverage below threshold,1.0216,>= 1.05x
+base_case,COLL001,High,CMP0065,C065,Manufacturing,Base collateral coverage below threshold,0.9669,>= 1.05x
+base_case,COLL002,High,CMP0065,C065,Manufacturing,Stressed collateral coverage below 1.0x,0.9669,>= 1.00x
+base_case,COLL001,High,CMP0066,C066,Insurance,Base collateral coverage below threshold,0.9141,>= 1.05x
+base_case,COLL002,High,CMP0066,C066,Insurance,Stressed collateral coverage below 1.0x,0.9141,>= 1.00x
+base_case,HEDGE001,Medium,CMP0068,C068,Insurance,Hedge ratio outside 80%-125% control band,0.7234,0.80 to 1.25
+base_case,LIQ001,High,CMP0069,C069,Banking,LCR below 100% minimum threshold,95.3266,>= 100%
+base_case,LIQ001,High,CMP0070,C070,Manufacturing,LCR below 100% minimum threshold,90.4081,>= 100%
+base_case,HEDGE001,Medium,CMP0071,C071,Energy,Hedge ratio outside 80%-125% control band,0.6909,0.80 to 1.25
+base_case,LIQ001,High,CMP0071,C071,Energy,LCR below 100% minimum threshold,78.7384,>= 100%
+base_case,HEDGE001,Medium,CMP0072,C072,NBFC,Hedge ratio outside 80%-125% control band,0.7498,0.80 to 1.25
+base_case,COLL001,High,CMP0074,C074,NBFC,Base collateral coverage below threshold,0.9942,>= 1.05x
+base_case,COLL002,High,CMP0074,C074,NBFC,Stressed collateral coverage below 1.0x,0.9942,>= 1.00x
+base_case,LIQ001,High,CMP0075,C075,Consumer,LCR below 100% minimum threshold,79.4111,>= 100%
+base_case,COLL001,High,CMP0076,C076,Manufacturing,Base collateral coverage below threshold,0.8887,>= 1.05x
+base_case,COLL002,High,CMP0076,C076,Manufacturing,Stressed collateral coverage below 1.0x,0.8887,>= 1.00x
+base_case,HEDGE001,Medium,CMP0077,C077,Insurance,Hedge ratio outside 80%-125% control band,0.6906,0.80 to 1.25
+base_case,LIQ001,High,CMP0077,C077,Insurance,LCR below 100% minimum threshold,90.9998,>= 100%
+base_case,COLL001,High,CMP0077,C077,Insurance,Base collateral coverage below threshold,0.9826,>= 1.05x
+base_case,COLL002,High,CMP0077,C077,Insurance,Stressed collateral coverage below 1.0x,0.9826,>= 1.00x
+base_case,LIQ001,High,CMP0078,C078,NBFC,LCR below 100% minimum threshold,93.8933,>= 100%
+base_case,COLL001,High,CMP0078,C078,NBFC,Base collateral coverage below threshold,1.0483,>= 1.05x
+base_case,HEDGE001,Medium,CMP0080,C080,Consumer,Hedge ratio outside 80%-125% control band,0.7543,0.80 to 1.25
+base_case,COLL001,High,CMP0080,C080,Consumer,Base collateral coverage below threshold,0.9095,>= 1.05x
+base_case,COLL002,High,CMP0080,C080,Consumer,Stressed collateral coverage below 1.0x,0.9095,>= 1.00x
+base_case,HEDGE001,Medium,CMP0081,C081,Healthcare,Hedge ratio outside 80%-125% control band,1.2592,0.80 to 1.25
+base_case,LIQ001,High,CMP0081,C081,Healthcare,LCR below 100% minimum threshold,90.4965,>= 100%
+base_case,COLL001,High,CMP0082,C082,Manufacturing,Base collateral coverage below threshold,0.9929,>= 1.05x
+base_case,COLL002,High,CMP0082,C082,Manufacturing,Stressed collateral coverage below 1.0x,0.9929,>= 1.00x
+base_case,LIQ001,High,CMP0083,C083,NBFC,LCR below 100% minimum threshold,93.8263,>= 100%
+base_case,COLL001,High,CMP0087,C087,Banking,Base collateral coverage below threshold,0.9822,>= 1.05x
+base_case,COLL002,High,CMP0087,C087,Banking,Stressed collateral coverage below 1.0x,0.9822,>= 1.00x
+base_case,LIQ001,High,CMP0088,C088,Insurance,LCR below 100% minimum threshold,96.1517,>= 100%
+base_case,COLL001,High,CMP0089,C089,Energy,Base collateral coverage below threshold,0.867,>= 1.05x
+base_case,COLL002,High,CMP0089,C089,Energy,Stressed collateral coverage below 1.0x,0.867,>= 1.00x
+base_case,HEDGE001,Medium,CMP0090,C090,Energy,Hedge ratio outside 80%-125% control band,0.6483,0.80 to 1.25
+base_case,HEDGE001,Medium,CMP0091,C091,Manufacturing,Hedge ratio outside 80%-125% control band,0.6648,0.80 to 1.25
+base_case,COLL001,High,CMP0091,C091,Manufacturing,Base collateral coverage below threshold,1.045,>= 1.05x
+base_case,COLL001,High,CMP0094,C094,Manufacturing,Base collateral coverage below threshold,0.952,>= 1.05x
+base_case,COLL002,High,CMP0094,C094,Manufacturing,Stressed collateral coverage below 1.0x,0.952,>= 1.00x
+base_case,HEDGE001,Medium,CMP0095,C095,Healthcare,Hedge ratio outside 80%-125% control band,0.6124,0.80 to 1.25
+base_case,LIQ001,High,CMP0095,C095,Healthcare,LCR below 100% minimum threshold,75.6573,>= 100%
+base_case,COLL001,High,CMP0095,C095,Healthcare,Base collateral coverage below threshold,0.9723,>= 1.05x
+base_case,COLL002,High,CMP0095,C095,Healthcare,Stressed collateral coverage below 1.0x,0.9723,>= 1.00x
+base_case,HEDGE001,Medium,CMP0097,C097,NBFC,Hedge ratio outside 80%-125% control band,1.2627,0.80 to 1.25
+base_case,COLL001,High,CMP0098,C098,Consumer,Base collateral coverage below threshold,0.9717,>= 1.05x
+base_case,COLL002,High,CMP0098,C098,Consumer,Stressed collateral coverage below 1.0x,0.9717,>= 1.00x
+base_case,COLL001,High,CMP0099,C099,Consumer,Base collateral coverage below threshold,1.025,>= 1.05x
+base_case,COLL001,High,CMP0100,C100,NBFC,Base collateral coverage below threshold,0.9716,>= 1.05x
+base_case,COLL002,High,CMP0100,C100,NBFC,Stressed collateral coverage below 1.0x,0.9716,>= 1.00x
+base_case,COLL001,High,CMP0101,C101,Energy,Base collateral coverage below threshold,0.9909,>= 1.05x
+base_case,COLL002,High,CMP0101,C101,Energy,Stressed collateral coverage below 1.0x,0.9909,>= 1.00x
+base_case,COLL001,High,CMP0103,C103,Energy,Base collateral coverage below threshold,0.8676,>= 1.05x
+base_case,COLL002,High,CMP0103,C103,Energy,Stressed collateral coverage below 1.0x,0.8676,>= 1.00x
+base_case,LIQ001,High,CMP0104,C104,Banking,LCR below 100% minimum threshold,85.2441,>= 100%
+base_case,COLL001,High,CMP0104,C104,Banking,Base collateral coverage below threshold,0.9134,>= 1.05x
+base_case,COLL002,High,CMP0104,C104,Banking,Stressed collateral coverage below 1.0x,0.9134,>= 1.00x
+base_case,LIQ001,High,CMP0105,C105,Energy,LCR below 100% minimum threshold,94.3708,>= 100%
+base_case,HEDGE001,Medium,CMP0106,C106,Energy,Hedge ratio outside 80%-125% control band,0.7459,0.80 to 1.25
+base_case,LIQ001,High,CMP0106,C106,Energy,LCR below 100% minimum threshold,88.0546,>= 100%
+base_case,COLL001,High,CMP0107,C107,Energy,Base collateral coverage below threshold,0.9048,>= 1.05x
+base_case,COLL002,High,CMP0107,C107,Energy,Stressed collateral coverage below 1.0x,0.9048,>= 1.00x
+base_case,LIQ001,High,CMP0108,C108,Consumer,LCR below 100% minimum threshold,90.8795,>= 100%
+base_case,COLL001,High,CMP0108,C108,Consumer,Base collateral coverage below threshold,0.8631,>= 1.05x
+base_case,COLL002,High,CMP0108,C108,Consumer,Stressed collateral coverage below 1.0x,0.8631,>= 1.00x
+base_case,COLL001,High,CMP0110,C110,Consumer,Base collateral coverage below threshold,0.9266,>= 1.05x
+base_case,COLL002,High,CMP0110,C110,Consumer,Stressed collateral coverage below 1.0x,0.9266,>= 1.00x
+base_case,HEDGE001,Medium,CMP0111,C111,Insurance,Hedge ratio outside 80%-125% control band,1.3074,0.80 to 1.25
+base_case,LIQ001,High,CMP0111,C111,Insurance,LCR below 100% minimum threshold,88.558,>= 100%
+base_case,LIQ001,High,CMP0112,C112,Energy,LCR below 100% minimum threshold,94.2639,>= 100%
+base_case,HEDGE001,Medium,CMP0113,C113,Technology,Hedge ratio outside 80%-125% control band,0.7739,0.80 to 1.25
+base_case,LIQ001,High,CMP0113,C113,Technology,LCR below 100% minimum threshold,94.2277,>= 100%
+base_case,COLL001,High,CMP0113,C113,Technology,Base collateral coverage below threshold,0.9911,>= 1.05x
+base_case,COLL002,High,CMP0113,C113,Technology,Stressed collateral coverage below 1.0x,0.9911,>= 1.00x
+base_case,HEDGE001,Medium,CMP0114,C114,Manufacturing,Hedge ratio outside 80%-125% control band,1.2946,0.80 to 1.25
+base_case,LIQ001,High,CMP0114,C114,Manufacturing,LCR below 100% minimum threshold,75.0208,>= 100%
+base_case,LIQ001,High,CMP0117,C117,Banking,LCR below 100% minimum threshold,93.8664,>= 100%
+base_case,COLL001,High,CMP0118,C118,NBFC,Base collateral coverage below threshold,0.9534,>= 1.05x
+base_case,COLL002,High,CMP0118,C118,NBFC,Stressed collateral coverage below 1.0x,0.9534,>= 1.00x
+base_case,HEDGE001,Medium,CMP0119,C119,NBFC,Hedge ratio outside 80%-125% control band,0.5893,0.80 to 1.25
+base_case,COLL001,High,CMP0119,C119,NBFC,Base collateral coverage below threshold,0.9993,>= 1.05x
+base_case,COLL002,High,CMP0119,C119,NBFC,Stressed collateral coverage below 1.0x,0.9993,>= 1.00x
+base_case,LIQ001,High,CMP0120,C120,Banking,LCR below 100% minimum threshold,76.6859,>= 100%
+base_case,COLL001,High,CMP0120,C120,Banking,Base collateral coverage below threshold,0.9737,>= 1.05x
+base_case,COLL002,High,CMP0120,C120,Banking,Stressed collateral coverage below 1.0x,0.9737,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0001,C001,Banking,Base collateral coverage below threshold,1.0403,>= 1.05x
+rate_up_100bps,COLL001,High,CMP0002,C002,Energy,Base collateral coverage below threshold,0.9237,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0002,C002,Energy,Stressed collateral coverage below 1.0x,0.9237,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0003,C003,Consumer,Base collateral coverage below threshold,0.9781,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0003,C003,Consumer,Stressed collateral coverage below 1.0x,0.9781,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0005,C005,Manufacturing,Base collateral coverage below threshold,0.8851,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0005,C005,Manufacturing,Stressed collateral coverage below 1.0x,0.8851,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0006,C006,Energy,LCR below 100% minimum threshold,76.3616,>= 100%
+rate_up_100bps,COLL001,High,CMP0006,C006,Energy,Base collateral coverage below threshold,0.8832,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0006,C006,Energy,Stressed collateral coverage below 1.0x,0.8832,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0007,C007,Banking,Base collateral coverage below threshold,0.8873,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0007,C007,Banking,Stressed collateral coverage below 1.0x,0.8873,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0009,C009,NBFC,LCR below 100% minimum threshold,77.5897,>= 100%
+rate_up_100bps,COLL001,High,CMP0009,C009,NBFC,Base collateral coverage below threshold,0.913,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0009,C009,NBFC,Stressed collateral coverage below 1.0x,0.913,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0011,C011,Technology,LCR below 100% minimum threshold,93.4955,>= 100%
+rate_up_100bps,COLL001,High,CMP0011,C011,Technology,Base collateral coverage below threshold,0.9216,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0011,C011,Technology,Stressed collateral coverage below 1.0x,0.9216,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0012,C012,Healthcare,LCR below 100% minimum threshold,79.2447,>= 100%
+rate_up_100bps,HEDGE001,Medium,CMP0013,C013,Consumer,Hedge ratio outside 80%-125% control band,0.7267,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0014,C014,Energy,LCR below 100% minimum threshold,96.242,>= 100%
+rate_up_100bps,HEDGE001,Medium,CMP0015,C015,Consumer,Hedge ratio outside 80%-125% control band,0.748,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0015,C015,Consumer,Base collateral coverage below threshold,1.0382,>= 1.05x
+rate_up_100bps,LIQ001,High,CMP0017,C017,Technology,LCR below 100% minimum threshold,93.9653,>= 100%
+rate_up_100bps,COLL001,High,CMP0017,C017,Technology,Base collateral coverage below threshold,1.0312,>= 1.05x
+rate_up_100bps,LIQ001,High,CMP0018,C018,NBFC,LCR below 100% minimum threshold,84.1757,>= 100%
+rate_up_100bps,HEDGE001,Medium,CMP0021,C021,Technology,Hedge ratio outside 80%-125% control band,1.3359,0.80 to 1.25
+rate_up_100bps,HEDGE001,Medium,CMP0022,C022,Insurance,Hedge ratio outside 80%-125% control band,0.7895,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0024,C024,Healthcare,Base collateral coverage below threshold,0.9438,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0024,C024,Healthcare,Stressed collateral coverage below 1.0x,0.9438,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0025,C025,Energy,Base collateral coverage below threshold,1.0381,>= 1.05x
+rate_up_100bps,LIQ001,High,CMP0028,C028,Energy,LCR below 100% minimum threshold,99.7586,>= 100%
+rate_up_100bps,HEDGE001,Medium,CMP0031,C031,Manufacturing,Hedge ratio outside 80%-125% control band,0.7469,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0032,C032,NBFC,Base collateral coverage below threshold,0.9165,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0032,C032,NBFC,Stressed collateral coverage below 1.0x,0.9165,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0033,C033,Banking,Base collateral coverage below threshold,0.9736,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0033,C033,Banking,Stressed collateral coverage below 1.0x,0.9736,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0035,C035,Healthcare,Hedge ratio outside 80%-125% control band,1.3535,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0035,C035,Healthcare,Base collateral coverage below threshold,0.9401,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0035,C035,Healthcare,Stressed collateral coverage below 1.0x,0.9401,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0036,C036,Banking,Hedge ratio outside 80%-125% control band,0.6269,0.80 to 1.25
+rate_up_100bps,HEDGE001,Medium,CMP0037,C037,Energy,Hedge ratio outside 80%-125% control band,0.7719,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0041,C041,NBFC,LCR below 100% minimum threshold,83.7141,>= 100%
+rate_up_100bps,COLL001,High,CMP0041,C041,NBFC,Base collateral coverage below threshold,1.0114,>= 1.05x
+rate_up_100bps,COLL001,High,CMP0042,C042,Energy,Base collateral coverage below threshold,1.0453,>= 1.05x
+rate_up_100bps,COLL001,High,CMP0044,C044,Insurance,Base collateral coverage below threshold,1.0259,>= 1.05x
+rate_up_100bps,HEDGE001,Medium,CMP0045,C045,Banking,Hedge ratio outside 80%-125% control band,0.5696,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0046,C046,Healthcare,Base collateral coverage below threshold,1.0146,>= 1.05x
+rate_up_100bps,COLL001,High,CMP0048,C048,Healthcare,Base collateral coverage below threshold,0.9285,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0048,C048,Healthcare,Stressed collateral coverage below 1.0x,0.9285,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0049,C049,Consumer,LCR below 100% minimum threshold,91.6385,>= 100%
+rate_up_100bps,COLL001,High,CMP0049,C049,Consumer,Base collateral coverage below threshold,0.9132,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0049,C049,Consumer,Stressed collateral coverage below 1.0x,0.9132,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0051,C051,Energy,Base collateral coverage below threshold,1.0174,>= 1.05x
+rate_up_100bps,LIQ001,High,CMP0053,C053,Insurance,LCR below 100% minimum threshold,89.0173,>= 100%
+rate_up_100bps,COLL001,High,CMP0053,C053,Insurance,Base collateral coverage below threshold,0.9462,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0053,C053,Insurance,Stressed collateral coverage below 1.0x,0.9462,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0054,C054,Manufacturing,LCR below 100% minimum threshold,98.2833,>= 100%
+rate_up_100bps,HEDGE001,Medium,CMP0055,C055,Manufacturing,Hedge ratio outside 80%-125% control band,0.7829,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0055,C055,Manufacturing,Base collateral coverage below threshold,0.8839,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0055,C055,Manufacturing,Stressed collateral coverage below 1.0x,0.8839,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0056,C056,Banking,Base collateral coverage below threshold,0.9409,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0056,C056,Banking,Stressed collateral coverage below 1.0x,0.9409,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0057,C057,Technology,Base collateral coverage below threshold,0.9097,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0057,C057,Technology,Stressed collateral coverage below 1.0x,0.9097,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0058,C058,NBFC,Base collateral coverage below threshold,0.9957,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0058,C058,NBFC,Stressed collateral coverage below 1.0x,0.9957,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0060,C060,Consumer,Base collateral coverage below threshold,0.9655,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0060,C060,Consumer,Stressed collateral coverage below 1.0x,0.9655,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0061,C061,Healthcare,LCR below 100% minimum threshold,77.6407,>= 100%
+rate_up_100bps,COLL001,High,CMP0061,C061,Healthcare,Base collateral coverage below threshold,0.9975,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0061,C061,Healthcare,Stressed collateral coverage below 1.0x,0.9975,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0062,C062,Consumer,LCR below 100% minimum threshold,85.4346,>= 100%
+rate_up_100bps,COLL001,High,CMP0063,C063,Insurance,Base collateral coverage below threshold,1.0218,>= 1.05x
+rate_up_100bps,COLL001,High,CMP0064,C064,Healthcare,Base collateral coverage below threshold,1.0216,>= 1.05x
+rate_up_100bps,COLL001,High,CMP0065,C065,Manufacturing,Base collateral coverage below threshold,0.9669,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0065,C065,Manufacturing,Stressed collateral coverage below 1.0x,0.9669,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0066,C066,Insurance,Base collateral coverage below threshold,0.9141,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0066,C066,Insurance,Stressed collateral coverage below 1.0x,0.9141,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0068,C068,Insurance,Hedge ratio outside 80%-125% control band,0.7234,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0069,C069,Banking,LCR below 100% minimum threshold,95.3266,>= 100%
+rate_up_100bps,LIQ001,High,CMP0070,C070,Manufacturing,LCR below 100% minimum threshold,90.4081,>= 100%
+rate_up_100bps,HEDGE001,Medium,CMP0071,C071,Energy,Hedge ratio outside 80%-125% control band,0.6909,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0071,C071,Energy,LCR below 100% minimum threshold,78.7384,>= 100%
+rate_up_100bps,HEDGE001,Medium,CMP0072,C072,NBFC,Hedge ratio outside 80%-125% control band,0.7498,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0074,C074,NBFC,Base collateral coverage below threshold,0.9942,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0074,C074,NBFC,Stressed collateral coverage below 1.0x,0.9942,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0075,C075,Consumer,LCR below 100% minimum threshold,79.4111,>= 100%
+rate_up_100bps,COLL001,High,CMP0076,C076,Manufacturing,Base collateral coverage below threshold,0.8887,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0076,C076,Manufacturing,Stressed collateral coverage below 1.0x,0.8887,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0077,C077,Insurance,Hedge ratio outside 80%-125% control band,0.6906,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0077,C077,Insurance,LCR below 100% minimum threshold,90.9998,>= 100%
+rate_up_100bps,COLL001,High,CMP0077,C077,Insurance,Base collateral coverage below threshold,0.9826,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0077,C077,Insurance,Stressed collateral coverage below 1.0x,0.9826,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0078,C078,NBFC,LCR below 100% minimum threshold,93.8933,>= 100%
+rate_up_100bps,COLL001,High,CMP0078,C078,NBFC,Base collateral coverage below threshold,1.0483,>= 1.05x
+rate_up_100bps,HEDGE001,Medium,CMP0080,C080,Consumer,Hedge ratio outside 80%-125% control band,0.7543,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0080,C080,Consumer,Base collateral coverage below threshold,0.9095,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0080,C080,Consumer,Stressed collateral coverage below 1.0x,0.9095,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0081,C081,Healthcare,Hedge ratio outside 80%-125% control band,1.2592,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0081,C081,Healthcare,LCR below 100% minimum threshold,90.4965,>= 100%
+rate_up_100bps,COLL001,High,CMP0082,C082,Manufacturing,Base collateral coverage below threshold,0.9929,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0082,C082,Manufacturing,Stressed collateral coverage below 1.0x,0.9929,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0083,C083,NBFC,LCR below 100% minimum threshold,93.8263,>= 100%
+rate_up_100bps,COLL001,High,CMP0087,C087,Banking,Base collateral coverage below threshold,0.9822,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0087,C087,Banking,Stressed collateral coverage below 1.0x,0.9822,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0088,C088,Insurance,LCR below 100% minimum threshold,96.1517,>= 100%
+rate_up_100bps,COLL001,High,CMP0089,C089,Energy,Base collateral coverage below threshold,0.867,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0089,C089,Energy,Stressed collateral coverage below 1.0x,0.867,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0090,C090,Energy,Hedge ratio outside 80%-125% control band,0.6483,0.80 to 1.25
+rate_up_100bps,HEDGE001,Medium,CMP0091,C091,Manufacturing,Hedge ratio outside 80%-125% control band,0.6648,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0091,C091,Manufacturing,Base collateral coverage below threshold,1.045,>= 1.05x
+rate_up_100bps,COLL001,High,CMP0094,C094,Manufacturing,Base collateral coverage below threshold,0.952,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0094,C094,Manufacturing,Stressed collateral coverage below 1.0x,0.952,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0095,C095,Healthcare,Hedge ratio outside 80%-125% control band,0.6124,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0095,C095,Healthcare,LCR below 100% minimum threshold,75.6573,>= 100%
+rate_up_100bps,COLL001,High,CMP0095,C095,Healthcare,Base collateral coverage below threshold,0.9723,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0095,C095,Healthcare,Stressed collateral coverage below 1.0x,0.9723,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0097,C097,NBFC,Hedge ratio outside 80%-125% control band,1.2627,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0098,C098,Consumer,Base collateral coverage below threshold,0.9717,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0098,C098,Consumer,Stressed collateral coverage below 1.0x,0.9717,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0099,C099,Consumer,Base collateral coverage below threshold,1.025,>= 1.05x
+rate_up_100bps,COLL001,High,CMP0100,C100,NBFC,Base collateral coverage below threshold,0.9716,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0100,C100,NBFC,Stressed collateral coverage below 1.0x,0.9716,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0101,C101,Energy,Base collateral coverage below threshold,0.9909,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0101,C101,Energy,Stressed collateral coverage below 1.0x,0.9909,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0103,C103,Energy,Base collateral coverage below threshold,0.8676,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0103,C103,Energy,Stressed collateral coverage below 1.0x,0.8676,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0104,C104,Banking,LCR below 100% minimum threshold,85.2441,>= 100%
+rate_up_100bps,COLL001,High,CMP0104,C104,Banking,Base collateral coverage below threshold,0.9134,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0104,C104,Banking,Stressed collateral coverage below 1.0x,0.9134,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0105,C105,Energy,LCR below 100% minimum threshold,94.3708,>= 100%
+rate_up_100bps,HEDGE001,Medium,CMP0106,C106,Energy,Hedge ratio outside 80%-125% control band,0.7459,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0106,C106,Energy,LCR below 100% minimum threshold,88.0546,>= 100%
+rate_up_100bps,COLL001,High,CMP0107,C107,Energy,Base collateral coverage below threshold,0.9048,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0107,C107,Energy,Stressed collateral coverage below 1.0x,0.9048,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0108,C108,Consumer,LCR below 100% minimum threshold,90.8795,>= 100%
+rate_up_100bps,COLL001,High,CMP0108,C108,Consumer,Base collateral coverage below threshold,0.8631,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0108,C108,Consumer,Stressed collateral coverage below 1.0x,0.8631,>= 1.00x
+rate_up_100bps,COLL001,High,CMP0110,C110,Consumer,Base collateral coverage below threshold,0.9266,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0110,C110,Consumer,Stressed collateral coverage below 1.0x,0.9266,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0111,C111,Insurance,Hedge ratio outside 80%-125% control band,1.3074,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0111,C111,Insurance,LCR below 100% minimum threshold,88.558,>= 100%
+rate_up_100bps,LIQ001,High,CMP0112,C112,Energy,LCR below 100% minimum threshold,94.2639,>= 100%
+rate_up_100bps,HEDGE001,Medium,CMP0113,C113,Technology,Hedge ratio outside 80%-125% control band,0.7739,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0113,C113,Technology,LCR below 100% minimum threshold,94.2277,>= 100%
+rate_up_100bps,COLL001,High,CMP0113,C113,Technology,Base collateral coverage below threshold,0.9911,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0113,C113,Technology,Stressed collateral coverage below 1.0x,0.9911,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0114,C114,Manufacturing,Hedge ratio outside 80%-125% control band,1.2946,0.80 to 1.25
+rate_up_100bps,LIQ001,High,CMP0114,C114,Manufacturing,LCR below 100% minimum threshold,75.0208,>= 100%
+rate_up_100bps,LIQ001,High,CMP0117,C117,Banking,LCR below 100% minimum threshold,93.8664,>= 100%
+rate_up_100bps,COLL001,High,CMP0118,C118,NBFC,Base collateral coverage below threshold,0.9534,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0118,C118,NBFC,Stressed collateral coverage below 1.0x,0.9534,>= 1.00x
+rate_up_100bps,HEDGE001,Medium,CMP0119,C119,NBFC,Hedge ratio outside 80%-125% control band,0.5893,0.80 to 1.25
+rate_up_100bps,COLL001,High,CMP0119,C119,NBFC,Base collateral coverage below threshold,0.9993,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0119,C119,NBFC,Stressed collateral coverage below 1.0x,0.9993,>= 1.00x
+rate_up_100bps,LIQ001,High,CMP0120,C120,Banking,LCR below 100% minimum threshold,76.6859,>= 100%
+rate_up_100bps,COLL001,High,CMP0120,C120,Banking,Base collateral coverage below threshold,0.9737,>= 1.05x
+rate_up_100bps,COLL002,High,CMP0120,C120,Banking,Stressed collateral coverage below 1.0x,0.9737,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0001,C001,Banking,Base collateral coverage below threshold,1.0403,>= 1.05x
+rate_down_50bps,COLL001,High,CMP0002,C002,Energy,Base collateral coverage below threshold,0.9237,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0002,C002,Energy,Stressed collateral coverage below 1.0x,0.9237,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0003,C003,Consumer,Base collateral coverage below threshold,0.9781,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0003,C003,Consumer,Stressed collateral coverage below 1.0x,0.9781,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0005,C005,Manufacturing,Base collateral coverage below threshold,0.8851,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0005,C005,Manufacturing,Stressed collateral coverage below 1.0x,0.8851,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0006,C006,Energy,LCR below 100% minimum threshold,76.3616,>= 100%
+rate_down_50bps,COLL001,High,CMP0006,C006,Energy,Base collateral coverage below threshold,0.8832,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0006,C006,Energy,Stressed collateral coverage below 1.0x,0.8832,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0007,C007,Banking,Base collateral coverage below threshold,0.8873,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0007,C007,Banking,Stressed collateral coverage below 1.0x,0.8873,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0009,C009,NBFC,LCR below 100% minimum threshold,77.5897,>= 100%
+rate_down_50bps,COLL001,High,CMP0009,C009,NBFC,Base collateral coverage below threshold,0.913,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0009,C009,NBFC,Stressed collateral coverage below 1.0x,0.913,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0011,C011,Technology,LCR below 100% minimum threshold,93.4955,>= 100%
+rate_down_50bps,COLL001,High,CMP0011,C011,Technology,Base collateral coverage below threshold,0.9216,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0011,C011,Technology,Stressed collateral coverage below 1.0x,0.9216,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0012,C012,Healthcare,LCR below 100% minimum threshold,79.2447,>= 100%
+rate_down_50bps,HEDGE001,Medium,CMP0013,C013,Consumer,Hedge ratio outside 80%-125% control band,0.7267,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0014,C014,Energy,LCR below 100% minimum threshold,96.242,>= 100%
+rate_down_50bps,HEDGE001,Medium,CMP0015,C015,Consumer,Hedge ratio outside 80%-125% control band,0.748,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0015,C015,Consumer,Base collateral coverage below threshold,1.0382,>= 1.05x
+rate_down_50bps,LIQ001,High,CMP0017,C017,Technology,LCR below 100% minimum threshold,93.9653,>= 100%
+rate_down_50bps,COLL001,High,CMP0017,C017,Technology,Base collateral coverage below threshold,1.0312,>= 1.05x
+rate_down_50bps,LIQ001,High,CMP0018,C018,NBFC,LCR below 100% minimum threshold,84.1757,>= 100%
+rate_down_50bps,HEDGE001,Medium,CMP0021,C021,Technology,Hedge ratio outside 80%-125% control band,1.3359,0.80 to 1.25
+rate_down_50bps,HEDGE001,Medium,CMP0022,C022,Insurance,Hedge ratio outside 80%-125% control band,0.7895,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0024,C024,Healthcare,Base collateral coverage below threshold,0.9438,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0024,C024,Healthcare,Stressed collateral coverage below 1.0x,0.9438,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0025,C025,Energy,Base collateral coverage below threshold,1.0381,>= 1.05x
+rate_down_50bps,LIQ001,High,CMP0028,C028,Energy,LCR below 100% minimum threshold,99.7586,>= 100%
+rate_down_50bps,HEDGE001,Medium,CMP0031,C031,Manufacturing,Hedge ratio outside 80%-125% control band,0.7469,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0032,C032,NBFC,Base collateral coverage below threshold,0.9165,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0032,C032,NBFC,Stressed collateral coverage below 1.0x,0.9165,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0033,C033,Banking,Base collateral coverage below threshold,0.9736,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0033,C033,Banking,Stressed collateral coverage below 1.0x,0.9736,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0035,C035,Healthcare,Hedge ratio outside 80%-125% control band,1.3535,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0035,C035,Healthcare,Base collateral coverage below threshold,0.9401,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0035,C035,Healthcare,Stressed collateral coverage below 1.0x,0.9401,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0036,C036,Banking,Hedge ratio outside 80%-125% control band,0.6269,0.80 to 1.25
+rate_down_50bps,HEDGE001,Medium,CMP0037,C037,Energy,Hedge ratio outside 80%-125% control band,0.7719,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0041,C041,NBFC,LCR below 100% minimum threshold,83.7141,>= 100%
+rate_down_50bps,COLL001,High,CMP0041,C041,NBFC,Base collateral coverage below threshold,1.0114,>= 1.05x
+rate_down_50bps,COLL001,High,CMP0042,C042,Energy,Base collateral coverage below threshold,1.0453,>= 1.05x
+rate_down_50bps,COLL001,High,CMP0044,C044,Insurance,Base collateral coverage below threshold,1.0259,>= 1.05x
+rate_down_50bps,HEDGE001,Medium,CMP0045,C045,Banking,Hedge ratio outside 80%-125% control band,0.5696,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0046,C046,Healthcare,Base collateral coverage below threshold,1.0146,>= 1.05x
+rate_down_50bps,COLL001,High,CMP0048,C048,Healthcare,Base collateral coverage below threshold,0.9285,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0048,C048,Healthcare,Stressed collateral coverage below 1.0x,0.9285,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0049,C049,Consumer,LCR below 100% minimum threshold,91.6385,>= 100%
+rate_down_50bps,COLL001,High,CMP0049,C049,Consumer,Base collateral coverage below threshold,0.9132,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0049,C049,Consumer,Stressed collateral coverage below 1.0x,0.9132,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0051,C051,Energy,Base collateral coverage below threshold,1.0174,>= 1.05x
+rate_down_50bps,LIQ001,High,CMP0053,C053,Insurance,LCR below 100% minimum threshold,89.0173,>= 100%
+rate_down_50bps,COLL001,High,CMP0053,C053,Insurance,Base collateral coverage below threshold,0.9462,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0053,C053,Insurance,Stressed collateral coverage below 1.0x,0.9462,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0054,C054,Manufacturing,LCR below 100% minimum threshold,98.2833,>= 100%
+rate_down_50bps,HEDGE001,Medium,CMP0055,C055,Manufacturing,Hedge ratio outside 80%-125% control band,0.7829,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0055,C055,Manufacturing,Base collateral coverage below threshold,0.8839,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0055,C055,Manufacturing,Stressed collateral coverage below 1.0x,0.8839,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0056,C056,Banking,Base collateral coverage below threshold,0.9409,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0056,C056,Banking,Stressed collateral coverage below 1.0x,0.9409,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0057,C057,Technology,Base collateral coverage below threshold,0.9097,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0057,C057,Technology,Stressed collateral coverage below 1.0x,0.9097,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0058,C058,NBFC,Base collateral coverage below threshold,0.9957,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0058,C058,NBFC,Stressed collateral coverage below 1.0x,0.9957,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0060,C060,Consumer,Base collateral coverage below threshold,0.9655,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0060,C060,Consumer,Stressed collateral coverage below 1.0x,0.9655,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0061,C061,Healthcare,LCR below 100% minimum threshold,77.6407,>= 100%
+rate_down_50bps,COLL001,High,CMP0061,C061,Healthcare,Base collateral coverage below threshold,0.9975,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0061,C061,Healthcare,Stressed collateral coverage below 1.0x,0.9975,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0062,C062,Consumer,LCR below 100% minimum threshold,85.4346,>= 100%
+rate_down_50bps,COLL001,High,CMP0063,C063,Insurance,Base collateral coverage below threshold,1.0218,>= 1.05x
+rate_down_50bps,COLL001,High,CMP0064,C064,Healthcare,Base collateral coverage below threshold,1.0216,>= 1.05x
+rate_down_50bps,COLL001,High,CMP0065,C065,Manufacturing,Base collateral coverage below threshold,0.9669,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0065,C065,Manufacturing,Stressed collateral coverage below 1.0x,0.9669,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0066,C066,Insurance,Base collateral coverage below threshold,0.9141,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0066,C066,Insurance,Stressed collateral coverage below 1.0x,0.9141,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0068,C068,Insurance,Hedge ratio outside 80%-125% control band,0.7234,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0069,C069,Banking,LCR below 100% minimum threshold,95.3266,>= 100%
+rate_down_50bps,LIQ001,High,CMP0070,C070,Manufacturing,LCR below 100% minimum threshold,90.4081,>= 100%
+rate_down_50bps,HEDGE001,Medium,CMP0071,C071,Energy,Hedge ratio outside 80%-125% control band,0.6909,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0071,C071,Energy,LCR below 100% minimum threshold,78.7384,>= 100%
+rate_down_50bps,HEDGE001,Medium,CMP0072,C072,NBFC,Hedge ratio outside 80%-125% control band,0.7498,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0074,C074,NBFC,Base collateral coverage below threshold,0.9942,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0074,C074,NBFC,Stressed collateral coverage below 1.0x,0.9942,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0075,C075,Consumer,LCR below 100% minimum threshold,79.4111,>= 100%
+rate_down_50bps,COLL001,High,CMP0076,C076,Manufacturing,Base collateral coverage below threshold,0.8887,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0076,C076,Manufacturing,Stressed collateral coverage below 1.0x,0.8887,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0077,C077,Insurance,Hedge ratio outside 80%-125% control band,0.6906,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0077,C077,Insurance,LCR below 100% minimum threshold,90.9998,>= 100%
+rate_down_50bps,COLL001,High,CMP0077,C077,Insurance,Base collateral coverage below threshold,0.9826,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0077,C077,Insurance,Stressed collateral coverage below 1.0x,0.9826,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0078,C078,NBFC,LCR below 100% minimum threshold,93.8933,>= 100%
+rate_down_50bps,COLL001,High,CMP0078,C078,NBFC,Base collateral coverage below threshold,1.0483,>= 1.05x
+rate_down_50bps,HEDGE001,Medium,CMP0080,C080,Consumer,Hedge ratio outside 80%-125% control band,0.7543,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0080,C080,Consumer,Base collateral coverage below threshold,0.9095,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0080,C080,Consumer,Stressed collateral coverage below 1.0x,0.9095,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0081,C081,Healthcare,Hedge ratio outside 80%-125% control band,1.2592,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0081,C081,Healthcare,LCR below 100% minimum threshold,90.4965,>= 100%
+rate_down_50bps,COLL001,High,CMP0082,C082,Manufacturing,Base collateral coverage below threshold,0.9929,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0082,C082,Manufacturing,Stressed collateral coverage below 1.0x,0.9929,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0083,C083,NBFC,LCR below 100% minimum threshold,93.8263,>= 100%
+rate_down_50bps,COLL001,High,CMP0087,C087,Banking,Base collateral coverage below threshold,0.9822,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0087,C087,Banking,Stressed collateral coverage below 1.0x,0.9822,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0088,C088,Insurance,LCR below 100% minimum threshold,96.1517,>= 100%
+rate_down_50bps,COLL001,High,CMP0089,C089,Energy,Base collateral coverage below threshold,0.867,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0089,C089,Energy,Stressed collateral coverage below 1.0x,0.867,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0090,C090,Energy,Hedge ratio outside 80%-125% control band,0.6483,0.80 to 1.25
+rate_down_50bps,HEDGE001,Medium,CMP0091,C091,Manufacturing,Hedge ratio outside 80%-125% control band,0.6648,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0091,C091,Manufacturing,Base collateral coverage below threshold,1.045,>= 1.05x
+rate_down_50bps,COLL001,High,CMP0094,C094,Manufacturing,Base collateral coverage below threshold,0.952,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0094,C094,Manufacturing,Stressed collateral coverage below 1.0x,0.952,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0095,C095,Healthcare,Hedge ratio outside 80%-125% control band,0.6124,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0095,C095,Healthcare,LCR below 100% minimum threshold,75.6573,>= 100%
+rate_down_50bps,COLL001,High,CMP0095,C095,Healthcare,Base collateral coverage below threshold,0.9723,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0095,C095,Healthcare,Stressed collateral coverage below 1.0x,0.9723,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0097,C097,NBFC,Hedge ratio outside 80%-125% control band,1.2627,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0098,C098,Consumer,Base collateral coverage below threshold,0.9717,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0098,C098,Consumer,Stressed collateral coverage below 1.0x,0.9717,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0099,C099,Consumer,Base collateral coverage below threshold,1.025,>= 1.05x
+rate_down_50bps,COLL001,High,CMP0100,C100,NBFC,Base collateral coverage below threshold,0.9716,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0100,C100,NBFC,Stressed collateral coverage below 1.0x,0.9716,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0101,C101,Energy,Base collateral coverage below threshold,0.9909,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0101,C101,Energy,Stressed collateral coverage below 1.0x,0.9909,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0103,C103,Energy,Base collateral coverage below threshold,0.8676,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0103,C103,Energy,Stressed collateral coverage below 1.0x,0.8676,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0104,C104,Banking,LCR below 100% minimum threshold,85.2441,>= 100%
+rate_down_50bps,COLL001,High,CMP0104,C104,Banking,Base collateral coverage below threshold,0.9134,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0104,C104,Banking,Stressed collateral coverage below 1.0x,0.9134,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0105,C105,Energy,LCR below 100% minimum threshold,94.3708,>= 100%
+rate_down_50bps,HEDGE001,Medium,CMP0106,C106,Energy,Hedge ratio outside 80%-125% control band,0.7459,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0106,C106,Energy,LCR below 100% minimum threshold,88.0546,>= 100%
+rate_down_50bps,COLL001,High,CMP0107,C107,Energy,Base collateral coverage below threshold,0.9048,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0107,C107,Energy,Stressed collateral coverage below 1.0x,0.9048,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0108,C108,Consumer,LCR below 100% minimum threshold,90.8795,>= 100%
+rate_down_50bps,COLL001,High,CMP0108,C108,Consumer,Base collateral coverage below threshold,0.8631,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0108,C108,Consumer,Stressed collateral coverage below 1.0x,0.8631,>= 1.00x
+rate_down_50bps,COLL001,High,CMP0110,C110,Consumer,Base collateral coverage below threshold,0.9266,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0110,C110,Consumer,Stressed collateral coverage below 1.0x,0.9266,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0111,C111,Insurance,Hedge ratio outside 80%-125% control band,1.3074,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0111,C111,Insurance,LCR below 100% minimum threshold,88.558,>= 100%
+rate_down_50bps,LIQ001,High,CMP0112,C112,Energy,LCR below 100% minimum threshold,94.2639,>= 100%
+rate_down_50bps,HEDGE001,Medium,CMP0113,C113,Technology,Hedge ratio outside 80%-125% control band,0.7739,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0113,C113,Technology,LCR below 100% minimum threshold,94.2277,>= 100%
+rate_down_50bps,COLL001,High,CMP0113,C113,Technology,Base collateral coverage below threshold,0.9911,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0113,C113,Technology,Stressed collateral coverage below 1.0x,0.9911,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0114,C114,Manufacturing,Hedge ratio outside 80%-125% control band,1.2946,0.80 to 1.25
+rate_down_50bps,LIQ001,High,CMP0114,C114,Manufacturing,LCR below 100% minimum threshold,75.0208,>= 100%
+rate_down_50bps,LIQ001,High,CMP0117,C117,Banking,LCR below 100% minimum threshold,93.8664,>= 100%
+rate_down_50bps,COLL001,High,CMP0118,C118,NBFC,Base collateral coverage below threshold,0.9534,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0118,C118,NBFC,Stressed collateral coverage below 1.0x,0.9534,>= 1.00x
+rate_down_50bps,HEDGE001,Medium,CMP0119,C119,NBFC,Hedge ratio outside 80%-125% control band,0.5893,0.80 to 1.25
+rate_down_50bps,COLL001,High,CMP0119,C119,NBFC,Base collateral coverage below threshold,0.9993,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0119,C119,NBFC,Stressed collateral coverage below 1.0x,0.9993,>= 1.00x
+rate_down_50bps,LIQ001,High,CMP0120,C120,Banking,LCR below 100% minimum threshold,76.6859,>= 100%
+rate_down_50bps,COLL001,High,CMP0120,C120,Banking,Base collateral coverage below threshold,0.9737,>= 1.05x
+rate_down_50bps,COLL002,High,CMP0120,C120,Banking,Stressed collateral coverage below 1.0x,0.9737,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0001,C001,Banking,Base collateral coverage below threshold,1.0403,>= 1.05x
+credit_spread_plus_75bps,COLL001,High,CMP0002,C002,Energy,Base collateral coverage below threshold,0.9237,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0002,C002,Energy,Stressed collateral coverage below 1.0x,0.9237,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0003,C003,Consumer,Base collateral coverage below threshold,0.9781,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0003,C003,Consumer,Stressed collateral coverage below 1.0x,0.9781,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0005,C005,Manufacturing,Base collateral coverage below threshold,0.8851,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0005,C005,Manufacturing,Stressed collateral coverage below 1.0x,0.8851,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0006,C006,Energy,LCR below 100% minimum threshold,76.3616,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0006,C006,Energy,Base collateral coverage below threshold,0.8832,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0006,C006,Energy,Stressed collateral coverage below 1.0x,0.8832,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0007,C007,Banking,Base collateral coverage below threshold,0.8873,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0007,C007,Banking,Stressed collateral coverage below 1.0x,0.8873,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0009,C009,NBFC,LCR below 100% minimum threshold,77.5897,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0009,C009,NBFC,Base collateral coverage below threshold,0.913,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0009,C009,NBFC,Stressed collateral coverage below 1.0x,0.913,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0011,C011,Technology,LCR below 100% minimum threshold,93.4955,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0011,C011,Technology,Base collateral coverage below threshold,0.9216,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0011,C011,Technology,Stressed collateral coverage below 1.0x,0.9216,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0012,C012,Healthcare,LCR below 100% minimum threshold,79.2447,>= 100%
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0013,C013,Consumer,Hedge ratio outside 80%-125% control band,0.7267,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0014,C014,Energy,LCR below 100% minimum threshold,96.242,>= 100%
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0015,C015,Consumer,Hedge ratio outside 80%-125% control band,0.748,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0015,C015,Consumer,Base collateral coverage below threshold,1.0382,>= 1.05x
+credit_spread_plus_75bps,LIQ001,High,CMP0017,C017,Technology,LCR below 100% minimum threshold,93.9653,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0017,C017,Technology,Base collateral coverage below threshold,1.0312,>= 1.05x
+credit_spread_plus_75bps,LIQ001,High,CMP0018,C018,NBFC,LCR below 100% minimum threshold,84.1757,>= 100%
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0021,C021,Technology,Hedge ratio outside 80%-125% control band,1.3359,0.80 to 1.25
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0022,C022,Insurance,Hedge ratio outside 80%-125% control band,0.7895,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0024,C024,Healthcare,Base collateral coverage below threshold,0.9438,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0024,C024,Healthcare,Stressed collateral coverage below 1.0x,0.9438,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0025,C025,Energy,Base collateral coverage below threshold,1.0381,>= 1.05x
+credit_spread_plus_75bps,LIQ001,High,CMP0028,C028,Energy,LCR below 100% minimum threshold,99.7586,>= 100%
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0031,C031,Manufacturing,Hedge ratio outside 80%-125% control band,0.7469,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0032,C032,NBFC,Base collateral coverage below threshold,0.9165,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0032,C032,NBFC,Stressed collateral coverage below 1.0x,0.9165,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0033,C033,Banking,Base collateral coverage below threshold,0.9736,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0033,C033,Banking,Stressed collateral coverage below 1.0x,0.9736,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0035,C035,Healthcare,Hedge ratio outside 80%-125% control band,1.3535,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0035,C035,Healthcare,Base collateral coverage below threshold,0.9401,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0035,C035,Healthcare,Stressed collateral coverage below 1.0x,0.9401,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0036,C036,Banking,Hedge ratio outside 80%-125% control band,0.6269,0.80 to 1.25
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0037,C037,Energy,Hedge ratio outside 80%-125% control band,0.7719,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0041,C041,NBFC,LCR below 100% minimum threshold,83.7141,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0041,C041,NBFC,Base collateral coverage below threshold,1.0114,>= 1.05x
+credit_spread_plus_75bps,COLL001,High,CMP0042,C042,Energy,Base collateral coverage below threshold,1.0453,>= 1.05x
+credit_spread_plus_75bps,COLL001,High,CMP0044,C044,Insurance,Base collateral coverage below threshold,1.0259,>= 1.05x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0045,C045,Banking,Hedge ratio outside 80%-125% control band,0.5696,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0046,C046,Healthcare,Base collateral coverage below threshold,1.0146,>= 1.05x
+credit_spread_plus_75bps,COLL001,High,CMP0048,C048,Healthcare,Base collateral coverage below threshold,0.9285,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0048,C048,Healthcare,Stressed collateral coverage below 1.0x,0.9285,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0049,C049,Consumer,LCR below 100% minimum threshold,91.6385,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0049,C049,Consumer,Base collateral coverage below threshold,0.9132,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0049,C049,Consumer,Stressed collateral coverage below 1.0x,0.9132,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0051,C051,Energy,Base collateral coverage below threshold,1.0174,>= 1.05x
+credit_spread_plus_75bps,LIQ001,High,CMP0053,C053,Insurance,LCR below 100% minimum threshold,89.0173,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0053,C053,Insurance,Base collateral coverage below threshold,0.9462,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0053,C053,Insurance,Stressed collateral coverage below 1.0x,0.9462,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0054,C054,Manufacturing,LCR below 100% minimum threshold,98.2833,>= 100%
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0055,C055,Manufacturing,Hedge ratio outside 80%-125% control band,0.7829,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0055,C055,Manufacturing,Base collateral coverage below threshold,0.8839,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0055,C055,Manufacturing,Stressed collateral coverage below 1.0x,0.8839,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0056,C056,Banking,Base collateral coverage below threshold,0.9409,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0056,C056,Banking,Stressed collateral coverage below 1.0x,0.9409,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0057,C057,Technology,Base collateral coverage below threshold,0.9097,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0057,C057,Technology,Stressed collateral coverage below 1.0x,0.9097,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0058,C058,NBFC,Base collateral coverage below threshold,0.9957,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0058,C058,NBFC,Stressed collateral coverage below 1.0x,0.9957,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0060,C060,Consumer,Base collateral coverage below threshold,0.9655,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0060,C060,Consumer,Stressed collateral coverage below 1.0x,0.9655,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0061,C061,Healthcare,LCR below 100% minimum threshold,77.6407,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0061,C061,Healthcare,Base collateral coverage below threshold,0.9975,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0061,C061,Healthcare,Stressed collateral coverage below 1.0x,0.9975,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0062,C062,Consumer,LCR below 100% minimum threshold,85.4346,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0063,C063,Insurance,Base collateral coverage below threshold,1.0218,>= 1.05x
+credit_spread_plus_75bps,COLL001,High,CMP0064,C064,Healthcare,Base collateral coverage below threshold,1.0216,>= 1.05x
+credit_spread_plus_75bps,COLL001,High,CMP0065,C065,Manufacturing,Base collateral coverage below threshold,0.9669,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0065,C065,Manufacturing,Stressed collateral coverage below 1.0x,0.9669,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0066,C066,Insurance,Base collateral coverage below threshold,0.9141,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0066,C066,Insurance,Stressed collateral coverage below 1.0x,0.9141,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0068,C068,Insurance,Hedge ratio outside 80%-125% control band,0.7234,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0069,C069,Banking,LCR below 100% minimum threshold,95.3266,>= 100%
+credit_spread_plus_75bps,LIQ001,High,CMP0070,C070,Manufacturing,LCR below 100% minimum threshold,90.4081,>= 100%
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0071,C071,Energy,Hedge ratio outside 80%-125% control band,0.6909,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0071,C071,Energy,LCR below 100% minimum threshold,78.7384,>= 100%
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0072,C072,NBFC,Hedge ratio outside 80%-125% control band,0.7498,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0074,C074,NBFC,Base collateral coverage below threshold,0.9942,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0074,C074,NBFC,Stressed collateral coverage below 1.0x,0.9942,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0075,C075,Consumer,LCR below 100% minimum threshold,79.4111,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0076,C076,Manufacturing,Base collateral coverage below threshold,0.8887,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0076,C076,Manufacturing,Stressed collateral coverage below 1.0x,0.8887,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0077,C077,Insurance,Hedge ratio outside 80%-125% control band,0.6906,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0077,C077,Insurance,LCR below 100% minimum threshold,90.9998,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0077,C077,Insurance,Base collateral coverage below threshold,0.9826,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0077,C077,Insurance,Stressed collateral coverage below 1.0x,0.9826,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0078,C078,NBFC,LCR below 100% minimum threshold,93.8933,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0078,C078,NBFC,Base collateral coverage below threshold,1.0483,>= 1.05x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0080,C080,Consumer,Hedge ratio outside 80%-125% control band,0.7543,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0080,C080,Consumer,Base collateral coverage below threshold,0.9095,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0080,C080,Consumer,Stressed collateral coverage below 1.0x,0.9095,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0081,C081,Healthcare,Hedge ratio outside 80%-125% control band,1.2592,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0081,C081,Healthcare,LCR below 100% minimum threshold,90.4965,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0082,C082,Manufacturing,Base collateral coverage below threshold,0.9929,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0082,C082,Manufacturing,Stressed collateral coverage below 1.0x,0.9929,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0083,C083,NBFC,LCR below 100% minimum threshold,93.8263,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0087,C087,Banking,Base collateral coverage below threshold,0.9822,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0087,C087,Banking,Stressed collateral coverage below 1.0x,0.9822,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0088,C088,Insurance,LCR below 100% minimum threshold,96.1517,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0089,C089,Energy,Base collateral coverage below threshold,0.867,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0089,C089,Energy,Stressed collateral coverage below 1.0x,0.867,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0090,C090,Energy,Hedge ratio outside 80%-125% control band,0.6483,0.80 to 1.25
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0091,C091,Manufacturing,Hedge ratio outside 80%-125% control band,0.6648,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0091,C091,Manufacturing,Base collateral coverage below threshold,1.045,>= 1.05x
+credit_spread_plus_75bps,COLL001,High,CMP0094,C094,Manufacturing,Base collateral coverage below threshold,0.952,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0094,C094,Manufacturing,Stressed collateral coverage below 1.0x,0.952,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0095,C095,Healthcare,Hedge ratio outside 80%-125% control band,0.6124,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0095,C095,Healthcare,LCR below 100% minimum threshold,75.6573,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0095,C095,Healthcare,Base collateral coverage below threshold,0.9723,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0095,C095,Healthcare,Stressed collateral coverage below 1.0x,0.9723,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0097,C097,NBFC,Hedge ratio outside 80%-125% control band,1.2627,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0098,C098,Consumer,Base collateral coverage below threshold,0.9717,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0098,C098,Consumer,Stressed collateral coverage below 1.0x,0.9717,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0099,C099,Consumer,Base collateral coverage below threshold,1.025,>= 1.05x
+credit_spread_plus_75bps,COLL001,High,CMP0100,C100,NBFC,Base collateral coverage below threshold,0.9716,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0100,C100,NBFC,Stressed collateral coverage below 1.0x,0.9716,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0101,C101,Energy,Base collateral coverage below threshold,0.9909,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0101,C101,Energy,Stressed collateral coverage below 1.0x,0.9909,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0103,C103,Energy,Base collateral coverage below threshold,0.8676,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0103,C103,Energy,Stressed collateral coverage below 1.0x,0.8676,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0104,C104,Banking,LCR below 100% minimum threshold,85.2441,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0104,C104,Banking,Base collateral coverage below threshold,0.9134,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0104,C104,Banking,Stressed collateral coverage below 1.0x,0.9134,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0105,C105,Energy,LCR below 100% minimum threshold,94.3708,>= 100%
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0106,C106,Energy,Hedge ratio outside 80%-125% control band,0.7459,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0106,C106,Energy,LCR below 100% minimum threshold,88.0546,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0107,C107,Energy,Base collateral coverage below threshold,0.9048,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0107,C107,Energy,Stressed collateral coverage below 1.0x,0.9048,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0108,C108,Consumer,LCR below 100% minimum threshold,90.8795,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0108,C108,Consumer,Base collateral coverage below threshold,0.8631,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0108,C108,Consumer,Stressed collateral coverage below 1.0x,0.8631,>= 1.00x
+credit_spread_plus_75bps,COLL001,High,CMP0110,C110,Consumer,Base collateral coverage below threshold,0.9266,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0110,C110,Consumer,Stressed collateral coverage below 1.0x,0.9266,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0111,C111,Insurance,Hedge ratio outside 80%-125% control band,1.3074,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0111,C111,Insurance,LCR below 100% minimum threshold,88.558,>= 100%
+credit_spread_plus_75bps,LIQ001,High,CMP0112,C112,Energy,LCR below 100% minimum threshold,94.2639,>= 100%
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0113,C113,Technology,Hedge ratio outside 80%-125% control band,0.7739,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0113,C113,Technology,LCR below 100% minimum threshold,94.2277,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0113,C113,Technology,Base collateral coverage below threshold,0.9911,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0113,C113,Technology,Stressed collateral coverage below 1.0x,0.9911,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0114,C114,Manufacturing,Hedge ratio outside 80%-125% control band,1.2946,0.80 to 1.25
+credit_spread_plus_75bps,LIQ001,High,CMP0114,C114,Manufacturing,LCR below 100% minimum threshold,75.0208,>= 100%
+credit_spread_plus_75bps,LIQ001,High,CMP0117,C117,Banking,LCR below 100% minimum threshold,93.8664,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0118,C118,NBFC,Base collateral coverage below threshold,0.9534,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0118,C118,NBFC,Stressed collateral coverage below 1.0x,0.9534,>= 1.00x
+credit_spread_plus_75bps,HEDGE001,Medium,CMP0119,C119,NBFC,Hedge ratio outside 80%-125% control band,0.5893,0.80 to 1.25
+credit_spread_plus_75bps,COLL001,High,CMP0119,C119,NBFC,Base collateral coverage below threshold,0.9993,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0119,C119,NBFC,Stressed collateral coverage below 1.0x,0.9993,>= 1.00x
+credit_spread_plus_75bps,LIQ001,High,CMP0120,C120,Banking,LCR below 100% minimum threshold,76.6859,>= 100%
+credit_spread_plus_75bps,COLL001,High,CMP0120,C120,Banking,Base collateral coverage below threshold,0.9737,>= 1.05x
+credit_spread_plus_75bps,COLL002,High,CMP0120,C120,Banking,Stressed collateral coverage below 1.0x,0.9737,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0001,C001,Banking,Base collateral coverage below threshold,1.0403,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0001,C001,Banking,Stressed collateral coverage below 1.0x,0.8843,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0002,C002,Energy,Base collateral coverage below threshold,0.9237,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0002,C002,Energy,Stressed collateral coverage below 1.0x,0.7852,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0003,C003,Consumer,Base collateral coverage below threshold,0.9781,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0003,C003,Consumer,Stressed collateral coverage below 1.0x,0.8314,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0004,C004,Manufacturing,Stressed collateral coverage below 1.0x,0.8974,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0005,C005,Manufacturing,Base collateral coverage below threshold,0.8851,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0005,C005,Manufacturing,Stressed collateral coverage below 1.0x,0.7523,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0006,C006,Energy,LCR below 100% minimum threshold,76.3616,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0006,C006,Energy,Base collateral coverage below threshold,0.8832,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0006,C006,Energy,Stressed collateral coverage below 1.0x,0.7507,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0007,C007,Banking,Base collateral coverage below threshold,0.8873,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0007,C007,Banking,Stressed collateral coverage below 1.0x,0.7542,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0008,C008,Consumer,Stressed collateral coverage below 1.0x,0.9406,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0009,C009,NBFC,LCR below 100% minimum threshold,77.5897,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0009,C009,NBFC,Base collateral coverage below threshold,0.913,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0009,C009,NBFC,Stressed collateral coverage below 1.0x,0.7761,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0010,C010,Banking,Stressed collateral coverage below 1.0x,0.9,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0011,C011,Technology,LCR below 100% minimum threshold,93.4955,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0011,C011,Technology,Base collateral coverage below threshold,0.9216,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0011,C011,Technology,Stressed collateral coverage below 1.0x,0.7834,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0012,C012,Healthcare,LCR below 100% minimum threshold,79.2447,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0012,C012,Healthcare,Stressed collateral coverage below 1.0x,0.9483,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0013,C013,Consumer,Hedge ratio outside 80%-125% control band,0.7267,0.80 to 1.25
+collateral_erosion_15pct,LIQ001,High,CMP0014,C014,Energy,LCR below 100% minimum threshold,96.242,>= 100%
+collateral_erosion_15pct,HEDGE001,Medium,CMP0015,C015,Consumer,Hedge ratio outside 80%-125% control band,0.748,0.80 to 1.25
+collateral_erosion_15pct,COLL001,High,CMP0015,C015,Consumer,Base collateral coverage below threshold,1.0382,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0015,C015,Consumer,Stressed collateral coverage below 1.0x,0.8825,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0017,C017,Technology,LCR below 100% minimum threshold,93.9653,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0017,C017,Technology,Base collateral coverage below threshold,1.0312,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0017,C017,Technology,Stressed collateral coverage below 1.0x,0.8766,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0018,C018,NBFC,LCR below 100% minimum threshold,84.1757,>= 100%
+collateral_erosion_15pct,HEDGE001,Medium,CMP0021,C021,Technology,Hedge ratio outside 80%-125% control band,1.3359,0.80 to 1.25
+collateral_erosion_15pct,HEDGE001,Medium,CMP0022,C022,Insurance,Hedge ratio outside 80%-125% control band,0.7895,0.80 to 1.25
+collateral_erosion_15pct,COLL002,High,CMP0022,C022,Insurance,Stressed collateral coverage below 1.0x,0.953,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0024,C024,Healthcare,Base collateral coverage below threshold,0.9438,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0024,C024,Healthcare,Stressed collateral coverage below 1.0x,0.8023,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0025,C025,Energy,Base collateral coverage below threshold,1.0381,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0025,C025,Energy,Stressed collateral coverage below 1.0x,0.8824,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0028,C028,Energy,LCR below 100% minimum threshold,99.7586,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0028,C028,Energy,Stressed collateral coverage below 1.0x,0.9278,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0031,C031,Manufacturing,Hedge ratio outside 80%-125% control band,0.7469,0.80 to 1.25
+collateral_erosion_15pct,COLL002,High,CMP0031,C031,Manufacturing,Stressed collateral coverage below 1.0x,0.9135,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0032,C032,NBFC,Base collateral coverage below threshold,0.9165,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0032,C032,NBFC,Stressed collateral coverage below 1.0x,0.779,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0033,C033,Banking,Base collateral coverage below threshold,0.9736,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0033,C033,Banking,Stressed collateral coverage below 1.0x,0.8276,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0034,C034,Technology,Stressed collateral coverage below 1.0x,0.9642,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0035,C035,Healthcare,Hedge ratio outside 80%-125% control band,1.3535,0.80 to 1.25
+collateral_erosion_15pct,COLL001,High,CMP0035,C035,Healthcare,Base collateral coverage below threshold,0.9401,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0035,C035,Healthcare,Stressed collateral coverage below 1.0x,0.7991,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0036,C036,Banking,Hedge ratio outside 80%-125% control band,0.6269,0.80 to 1.25
+collateral_erosion_15pct,HEDGE001,Medium,CMP0037,C037,Energy,Hedge ratio outside 80%-125% control band,0.7719,0.80 to 1.25
+collateral_erosion_15pct,COLL002,High,CMP0037,C037,Energy,Stressed collateral coverage below 1.0x,0.9677,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0040,C040,Consumer,Stressed collateral coverage below 1.0x,0.96,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0041,C041,NBFC,LCR below 100% minimum threshold,83.7141,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0041,C041,NBFC,Base collateral coverage below threshold,1.0114,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0041,C041,NBFC,Stressed collateral coverage below 1.0x,0.8597,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0042,C042,Energy,Base collateral coverage below threshold,1.0453,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0042,C042,Energy,Stressed collateral coverage below 1.0x,0.8885,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0043,C043,Consumer,Stressed collateral coverage below 1.0x,0.98,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0044,C044,Insurance,Base collateral coverage below threshold,1.0259,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0044,C044,Insurance,Stressed collateral coverage below 1.0x,0.872,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0045,C045,Banking,Hedge ratio outside 80%-125% control band,0.5696,0.80 to 1.25
+collateral_erosion_15pct,COLL002,High,CMP0045,C045,Banking,Stressed collateral coverage below 1.0x,0.902,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0046,C046,Healthcare,Base collateral coverage below threshold,1.0146,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0046,C046,Healthcare,Stressed collateral coverage below 1.0x,0.8624,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0047,C047,Manufacturing,Stressed collateral coverage below 1.0x,0.9912,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0048,C048,Healthcare,Base collateral coverage below threshold,0.9285,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0048,C048,Healthcare,Stressed collateral coverage below 1.0x,0.7893,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0049,C049,Consumer,LCR below 100% minimum threshold,91.6385,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0049,C049,Consumer,Base collateral coverage below threshold,0.9132,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0049,C049,Consumer,Stressed collateral coverage below 1.0x,0.7763,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0051,C051,Energy,Base collateral coverage below threshold,1.0174,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0051,C051,Energy,Stressed collateral coverage below 1.0x,0.8648,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0052,C052,NBFC,Stressed collateral coverage below 1.0x,0.9306,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0053,C053,Insurance,LCR below 100% minimum threshold,89.0173,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0053,C053,Insurance,Base collateral coverage below threshold,0.9462,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0053,C053,Insurance,Stressed collateral coverage below 1.0x,0.8042,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0054,C054,Manufacturing,LCR below 100% minimum threshold,98.2833,>= 100%
+collateral_erosion_15pct,HEDGE001,Medium,CMP0055,C055,Manufacturing,Hedge ratio outside 80%-125% control band,0.7829,0.80 to 1.25
+collateral_erosion_15pct,COLL001,High,CMP0055,C055,Manufacturing,Base collateral coverage below threshold,0.8839,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0055,C055,Manufacturing,Stressed collateral coverage below 1.0x,0.7513,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0056,C056,Banking,Base collateral coverage below threshold,0.9409,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0056,C056,Banking,Stressed collateral coverage below 1.0x,0.7998,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0057,C057,Technology,Base collateral coverage below threshold,0.9097,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0057,C057,Technology,Stressed collateral coverage below 1.0x,0.7732,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0058,C058,NBFC,Base collateral coverage below threshold,0.9957,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0058,C058,NBFC,Stressed collateral coverage below 1.0x,0.8463,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0060,C060,Consumer,Base collateral coverage below threshold,0.9655,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0060,C060,Consumer,Stressed collateral coverage below 1.0x,0.8207,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0061,C061,Healthcare,LCR below 100% minimum threshold,77.6407,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0061,C061,Healthcare,Base collateral coverage below threshold,0.9975,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0061,C061,Healthcare,Stressed collateral coverage below 1.0x,0.8479,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0062,C062,Consumer,LCR below 100% minimum threshold,85.4346,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0062,C062,Consumer,Stressed collateral coverage below 1.0x,0.9983,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0063,C063,Insurance,Base collateral coverage below threshold,1.0218,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0063,C063,Insurance,Stressed collateral coverage below 1.0x,0.8686,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0064,C064,Healthcare,Base collateral coverage below threshold,1.0216,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0064,C064,Healthcare,Stressed collateral coverage below 1.0x,0.8683,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0065,C065,Manufacturing,Base collateral coverage below threshold,0.9669,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0065,C065,Manufacturing,Stressed collateral coverage below 1.0x,0.8219,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0066,C066,Insurance,Base collateral coverage below threshold,0.9141,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0066,C066,Insurance,Stressed collateral coverage below 1.0x,0.777,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0067,C067,Healthcare,Stressed collateral coverage below 1.0x,0.9218,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0068,C068,Insurance,Hedge ratio outside 80%-125% control band,0.7234,0.80 to 1.25
+collateral_erosion_15pct,COLL002,High,CMP0068,C068,Insurance,Stressed collateral coverage below 1.0x,0.937,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0069,C069,Banking,LCR below 100% minimum threshold,95.3266,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0069,C069,Banking,Stressed collateral coverage below 1.0x,0.9331,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0070,C070,Manufacturing,LCR below 100% minimum threshold,90.4081,>= 100%
+collateral_erosion_15pct,HEDGE001,Medium,CMP0071,C071,Energy,Hedge ratio outside 80%-125% control band,0.6909,0.80 to 1.25
+collateral_erosion_15pct,LIQ001,High,CMP0071,C071,Energy,LCR below 100% minimum threshold,78.7384,>= 100%
+collateral_erosion_15pct,HEDGE001,Medium,CMP0072,C072,NBFC,Hedge ratio outside 80%-125% control band,0.7498,0.80 to 1.25
+collateral_erosion_15pct,COLL002,High,CMP0072,C072,NBFC,Stressed collateral coverage below 1.0x,0.9478,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0074,C074,NBFC,Base collateral coverage below threshold,0.9942,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0074,C074,NBFC,Stressed collateral coverage below 1.0x,0.845,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0075,C075,Consumer,LCR below 100% minimum threshold,79.4111,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0075,C075,Consumer,Stressed collateral coverage below 1.0x,0.9041,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0076,C076,Manufacturing,Base collateral coverage below threshold,0.8887,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0076,C076,Manufacturing,Stressed collateral coverage below 1.0x,0.7554,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0077,C077,Insurance,Hedge ratio outside 80%-125% control band,0.6906,0.80 to 1.25
+collateral_erosion_15pct,LIQ001,High,CMP0077,C077,Insurance,LCR below 100% minimum threshold,90.9998,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0077,C077,Insurance,Base collateral coverage below threshold,0.9826,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0077,C077,Insurance,Stressed collateral coverage below 1.0x,0.8352,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0078,C078,NBFC,LCR below 100% minimum threshold,93.8933,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0078,C078,NBFC,Base collateral coverage below threshold,1.0483,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0078,C078,NBFC,Stressed collateral coverage below 1.0x,0.8911,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0080,C080,Consumer,Hedge ratio outside 80%-125% control band,0.7543,0.80 to 1.25
+collateral_erosion_15pct,COLL001,High,CMP0080,C080,Consumer,Base collateral coverage below threshold,0.9095,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0080,C080,Consumer,Stressed collateral coverage below 1.0x,0.7731,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0081,C081,Healthcare,Hedge ratio outside 80%-125% control band,1.2592,0.80 to 1.25
+collateral_erosion_15pct,LIQ001,High,CMP0081,C081,Healthcare,LCR below 100% minimum threshold,90.4965,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0082,C082,Manufacturing,Base collateral coverage below threshold,0.9929,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0082,C082,Manufacturing,Stressed collateral coverage below 1.0x,0.844,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0083,C083,NBFC,LCR below 100% minimum threshold,93.8263,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0083,C083,NBFC,Stressed collateral coverage below 1.0x,0.9591,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0084,C084,Energy,Stressed collateral coverage below 1.0x,0.9763,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0086,C086,Consumer,Stressed collateral coverage below 1.0x,0.9418,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0087,C087,Banking,Base collateral coverage below threshold,0.9822,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0087,C087,Banking,Stressed collateral coverage below 1.0x,0.8349,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0088,C088,Insurance,LCR below 100% minimum threshold,96.1517,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0089,C089,Energy,Base collateral coverage below threshold,0.867,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0089,C089,Energy,Stressed collateral coverage below 1.0x,0.737,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0090,C090,Energy,Hedge ratio outside 80%-125% control band,0.6483,0.80 to 1.25
+collateral_erosion_15pct,COLL002,High,CMP0090,C090,Energy,Stressed collateral coverage below 1.0x,0.981,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0091,C091,Manufacturing,Hedge ratio outside 80%-125% control band,0.6648,0.80 to 1.25
+collateral_erosion_15pct,COLL001,High,CMP0091,C091,Manufacturing,Base collateral coverage below threshold,1.045,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0091,C091,Manufacturing,Stressed collateral coverage below 1.0x,0.8882,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0093,C093,Energy,Stressed collateral coverage below 1.0x,0.915,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0094,C094,Manufacturing,Base collateral coverage below threshold,0.952,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0094,C094,Manufacturing,Stressed collateral coverage below 1.0x,0.8092,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0095,C095,Healthcare,Hedge ratio outside 80%-125% control band,0.6124,0.80 to 1.25
+collateral_erosion_15pct,LIQ001,High,CMP0095,C095,Healthcare,LCR below 100% minimum threshold,75.6573,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0095,C095,Healthcare,Base collateral coverage below threshold,0.9723,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0095,C095,Healthcare,Stressed collateral coverage below 1.0x,0.8264,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0096,C096,Insurance,Stressed collateral coverage below 1.0x,0.9867,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0097,C097,NBFC,Hedge ratio outside 80%-125% control band,1.2627,0.80 to 1.25
+collateral_erosion_15pct,COLL002,High,CMP0097,C097,NBFC,Stressed collateral coverage below 1.0x,0.9878,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0098,C098,Consumer,Base collateral coverage below threshold,0.9717,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0098,C098,Consumer,Stressed collateral coverage below 1.0x,0.826,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0099,C099,Consumer,Base collateral coverage below threshold,1.025,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0099,C099,Consumer,Stressed collateral coverage below 1.0x,0.8713,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0100,C100,NBFC,Base collateral coverage below threshold,0.9716,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0100,C100,NBFC,Stressed collateral coverage below 1.0x,0.8259,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0101,C101,Energy,Base collateral coverage below threshold,0.9909,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0101,C101,Energy,Stressed collateral coverage below 1.0x,0.8422,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0103,C103,Energy,Base collateral coverage below threshold,0.8676,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0103,C103,Energy,Stressed collateral coverage below 1.0x,0.7374,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0104,C104,Banking,LCR below 100% minimum threshold,85.2441,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0104,C104,Banking,Base collateral coverage below threshold,0.9134,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0104,C104,Banking,Stressed collateral coverage below 1.0x,0.7764,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0105,C105,Energy,LCR below 100% minimum threshold,94.3708,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0105,C105,Energy,Stressed collateral coverage below 1.0x,0.9512,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0106,C106,Energy,Hedge ratio outside 80%-125% control band,0.7459,0.80 to 1.25
+collateral_erosion_15pct,LIQ001,High,CMP0106,C106,Energy,LCR below 100% minimum threshold,88.0546,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0106,C106,Energy,Stressed collateral coverage below 1.0x,0.9937,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0107,C107,Energy,Base collateral coverage below threshold,0.9048,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0107,C107,Energy,Stressed collateral coverage below 1.0x,0.7691,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0108,C108,Consumer,LCR below 100% minimum threshold,90.8795,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0108,C108,Consumer,Base collateral coverage below threshold,0.8631,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0108,C108,Consumer,Stressed collateral coverage below 1.0x,0.7336,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0110,C110,Consumer,Base collateral coverage below threshold,0.9266,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0110,C110,Consumer,Stressed collateral coverage below 1.0x,0.7876,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0111,C111,Insurance,Hedge ratio outside 80%-125% control band,1.3074,0.80 to 1.25
+collateral_erosion_15pct,LIQ001,High,CMP0111,C111,Insurance,LCR below 100% minimum threshold,88.558,>= 100%
+collateral_erosion_15pct,LIQ001,High,CMP0112,C112,Energy,LCR below 100% minimum threshold,94.2639,>= 100%
+collateral_erosion_15pct,HEDGE001,Medium,CMP0113,C113,Technology,Hedge ratio outside 80%-125% control band,0.7739,0.80 to 1.25
+collateral_erosion_15pct,LIQ001,High,CMP0113,C113,Technology,LCR below 100% minimum threshold,94.2277,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0113,C113,Technology,Base collateral coverage below threshold,0.9911,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0113,C113,Technology,Stressed collateral coverage below 1.0x,0.8424,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0114,C114,Manufacturing,Hedge ratio outside 80%-125% control band,1.2946,0.80 to 1.25
+collateral_erosion_15pct,LIQ001,High,CMP0114,C114,Manufacturing,LCR below 100% minimum threshold,75.0208,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0114,C114,Manufacturing,Stressed collateral coverage below 1.0x,0.8964,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0115,C115,Technology,Stressed collateral coverage below 1.0x,0.9505,>= 1.00x
+collateral_erosion_15pct,COLL002,High,CMP0116,C116,Technology,Stressed collateral coverage below 1.0x,0.9692,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0117,C117,Banking,LCR below 100% minimum threshold,93.8664,>= 100%
+collateral_erosion_15pct,COLL002,High,CMP0117,C117,Banking,Stressed collateral coverage below 1.0x,0.9932,>= 1.00x
+collateral_erosion_15pct,COLL001,High,CMP0118,C118,NBFC,Base collateral coverage below threshold,0.9534,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0118,C118,NBFC,Stressed collateral coverage below 1.0x,0.8104,>= 1.00x
+collateral_erosion_15pct,HEDGE001,Medium,CMP0119,C119,NBFC,Hedge ratio outside 80%-125% control band,0.5893,0.80 to 1.25
+collateral_erosion_15pct,COLL001,High,CMP0119,C119,NBFC,Base collateral coverage below threshold,0.9993,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0119,C119,NBFC,Stressed collateral coverage below 1.0x,0.8494,>= 1.00x
+collateral_erosion_15pct,LIQ001,High,CMP0120,C120,Banking,LCR below 100% minimum threshold,76.6859,>= 100%
+collateral_erosion_15pct,COLL001,High,CMP0120,C120,Banking,Base collateral coverage below threshold,0.9737,>= 1.05x
+collateral_erosion_15pct,COLL002,High,CMP0120,C120,Banking,Stressed collateral coverage below 1.0x,0.8276,>= 1.00x
+combined_stress,COLL001,High,CMP0001,C001,Banking,Base collateral coverage below threshold,1.0403,>= 1.05x
+combined_stress,COLL002,High,CMP0001,C001,Banking,Stressed collateral coverage below 1.0x,0.8843,>= 1.00x
+combined_stress,COLL001,High,CMP0002,C002,Energy,Base collateral coverage below threshold,0.9237,>= 1.05x
+combined_stress,COLL002,High,CMP0002,C002,Energy,Stressed collateral coverage below 1.0x,0.7852,>= 1.00x
+combined_stress,COLL001,High,CMP0003,C003,Consumer,Base collateral coverage below threshold,0.9781,>= 1.05x
+combined_stress,COLL002,High,CMP0003,C003,Consumer,Stressed collateral coverage below 1.0x,0.8314,>= 1.00x
+combined_stress,COLL002,High,CMP0004,C004,Manufacturing,Stressed collateral coverage below 1.0x,0.8974,>= 1.00x
+combined_stress,COLL001,High,CMP0005,C005,Manufacturing,Base collateral coverage below threshold,0.8851,>= 1.05x
+combined_stress,COLL002,High,CMP0005,C005,Manufacturing,Stressed collateral coverage below 1.0x,0.7523,>= 1.00x
+combined_stress,LIQ001,High,CMP0006,C006,Energy,LCR below 100% minimum threshold,76.3616,>= 100%
+combined_stress,COLL001,High,CMP0006,C006,Energy,Base collateral coverage below threshold,0.8832,>= 1.05x
+combined_stress,COLL002,High,CMP0006,C006,Energy,Stressed collateral coverage below 1.0x,0.7507,>= 1.00x
+combined_stress,COLL001,High,CMP0007,C007,Banking,Base collateral coverage below threshold,0.8873,>= 1.05x
+combined_stress,COLL002,High,CMP0007,C007,Banking,Stressed collateral coverage below 1.0x,0.7542,>= 1.00x
+combined_stress,COLL002,High,CMP0008,C008,Consumer,Stressed collateral coverage below 1.0x,0.9406,>= 1.00x
+combined_stress,LIQ001,High,CMP0009,C009,NBFC,LCR below 100% minimum threshold,77.5897,>= 100%
+combined_stress,COLL001,High,CMP0009,C009,NBFC,Base collateral coverage below threshold,0.913,>= 1.05x
+combined_stress,COLL002,High,CMP0009,C009,NBFC,Stressed collateral coverage below 1.0x,0.7761,>= 1.00x
+combined_stress,COLL002,High,CMP0010,C010,Banking,Stressed collateral coverage below 1.0x,0.9,>= 1.00x
+combined_stress,LIQ001,High,CMP0011,C011,Technology,LCR below 100% minimum threshold,93.4955,>= 100%
+combined_stress,COLL001,High,CMP0011,C011,Technology,Base collateral coverage below threshold,0.9216,>= 1.05x
+combined_stress,COLL002,High,CMP0011,C011,Technology,Stressed collateral coverage below 1.0x,0.7834,>= 1.00x
+combined_stress,LIQ001,High,CMP0012,C012,Healthcare,LCR below 100% minimum threshold,79.2447,>= 100%
+combined_stress,COLL002,High,CMP0012,C012,Healthcare,Stressed collateral coverage below 1.0x,0.9483,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0013,C013,Consumer,Hedge ratio outside 80%-125% control band,0.7267,0.80 to 1.25
+combined_stress,LIQ001,High,CMP0014,C014,Energy,LCR below 100% minimum threshold,96.242,>= 100%
+combined_stress,HEDGE001,Medium,CMP0015,C015,Consumer,Hedge ratio outside 80%-125% control band,0.748,0.80 to 1.25
+combined_stress,COLL001,High,CMP0015,C015,Consumer,Base collateral coverage below threshold,1.0382,>= 1.05x
+combined_stress,COLL002,High,CMP0015,C015,Consumer,Stressed collateral coverage below 1.0x,0.8825,>= 1.00x
+combined_stress,LIQ001,High,CMP0017,C017,Technology,LCR below 100% minimum threshold,93.9653,>= 100%
+combined_stress,COLL001,High,CMP0017,C017,Technology,Base collateral coverage below threshold,1.0312,>= 1.05x
+combined_stress,COLL002,High,CMP0017,C017,Technology,Stressed collateral coverage below 1.0x,0.8766,>= 1.00x
+combined_stress,LIQ001,High,CMP0018,C018,NBFC,LCR below 100% minimum threshold,84.1757,>= 100%
+combined_stress,HEDGE001,Medium,CMP0021,C021,Technology,Hedge ratio outside 80%-125% control band,1.3359,0.80 to 1.25
+combined_stress,HEDGE001,Medium,CMP0022,C022,Insurance,Hedge ratio outside 80%-125% control band,0.7895,0.80 to 1.25
+combined_stress,COLL002,High,CMP0022,C022,Insurance,Stressed collateral coverage below 1.0x,0.953,>= 1.00x
+combined_stress,STRESS001,Medium,CMP0022,C022,Insurance,Stress P&L exceeds 2.5% of market value,-2.5583,Within +/-2.5%
+combined_stress,COLL001,High,CMP0024,C024,Healthcare,Base collateral coverage below threshold,0.9438,>= 1.05x
+combined_stress,COLL002,High,CMP0024,C024,Healthcare,Stressed collateral coverage below 1.0x,0.8023,>= 1.00x
+combined_stress,COLL001,High,CMP0025,C025,Energy,Base collateral coverage below threshold,1.0381,>= 1.05x
+combined_stress,COLL002,High,CMP0025,C025,Energy,Stressed collateral coverage below 1.0x,0.8824,>= 1.00x
+combined_stress,LIQ001,High,CMP0028,C028,Energy,LCR below 100% minimum threshold,99.7586,>= 100%
+combined_stress,COLL002,High,CMP0028,C028,Energy,Stressed collateral coverage below 1.0x,0.9278,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0031,C031,Manufacturing,Hedge ratio outside 80%-125% control band,0.7469,0.80 to 1.25
+combined_stress,COLL002,High,CMP0031,C031,Manufacturing,Stressed collateral coverage below 1.0x,0.9135,>= 1.00x
+combined_stress,COLL001,High,CMP0032,C032,NBFC,Base collateral coverage below threshold,0.9165,>= 1.05x
+combined_stress,COLL002,High,CMP0032,C032,NBFC,Stressed collateral coverage below 1.0x,0.779,>= 1.00x
+combined_stress,COLL001,High,CMP0033,C033,Banking,Base collateral coverage below threshold,0.9736,>= 1.05x
+combined_stress,COLL002,High,CMP0033,C033,Banking,Stressed collateral coverage below 1.0x,0.8276,>= 1.00x
+combined_stress,COLL002,High,CMP0034,C034,Technology,Stressed collateral coverage below 1.0x,0.9642,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0035,C035,Healthcare,Hedge ratio outside 80%-125% control band,1.3535,0.80 to 1.25
+combined_stress,COLL001,High,CMP0035,C035,Healthcare,Base collateral coverage below threshold,0.9401,>= 1.05x
+combined_stress,COLL002,High,CMP0035,C035,Healthcare,Stressed collateral coverage below 1.0x,0.7991,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0036,C036,Banking,Hedge ratio outside 80%-125% control band,0.6269,0.80 to 1.25
+combined_stress,HEDGE001,Medium,CMP0037,C037,Energy,Hedge ratio outside 80%-125% control band,0.7719,0.80 to 1.25
+combined_stress,COLL002,High,CMP0037,C037,Energy,Stressed collateral coverage below 1.0x,0.9677,>= 1.00x
+combined_stress,COLL002,High,CMP0040,C040,Consumer,Stressed collateral coverage below 1.0x,0.96,>= 1.00x
+combined_stress,LIQ001,High,CMP0041,C041,NBFC,LCR below 100% minimum threshold,83.7141,>= 100%
+combined_stress,COLL001,High,CMP0041,C041,NBFC,Base collateral coverage below threshold,1.0114,>= 1.05x
+combined_stress,COLL002,High,CMP0041,C041,NBFC,Stressed collateral coverage below 1.0x,0.8597,>= 1.00x
+combined_stress,COLL001,High,CMP0042,C042,Energy,Base collateral coverage below threshold,1.0453,>= 1.05x
+combined_stress,COLL002,High,CMP0042,C042,Energy,Stressed collateral coverage below 1.0x,0.8885,>= 1.00x
+combined_stress,COLL002,High,CMP0043,C043,Consumer,Stressed collateral coverage below 1.0x,0.98,>= 1.00x
+combined_stress,COLL001,High,CMP0044,C044,Insurance,Base collateral coverage below threshold,1.0259,>= 1.05x
+combined_stress,COLL002,High,CMP0044,C044,Insurance,Stressed collateral coverage below 1.0x,0.872,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0045,C045,Banking,Hedge ratio outside 80%-125% control band,0.5696,0.80 to 1.25
+combined_stress,COLL002,High,CMP0045,C045,Banking,Stressed collateral coverage below 1.0x,0.902,>= 1.00x
+combined_stress,COLL001,High,CMP0046,C046,Healthcare,Base collateral coverage below threshold,1.0146,>= 1.05x
+combined_stress,COLL002,High,CMP0046,C046,Healthcare,Stressed collateral coverage below 1.0x,0.8624,>= 1.00x
+combined_stress,COLL002,High,CMP0047,C047,Manufacturing,Stressed collateral coverage below 1.0x,0.9912,>= 1.00x
+combined_stress,COLL001,High,CMP0048,C048,Healthcare,Base collateral coverage below threshold,0.9285,>= 1.05x
+combined_stress,COLL002,High,CMP0048,C048,Healthcare,Stressed collateral coverage below 1.0x,0.7893,>= 1.00x
+combined_stress,LIQ001,High,CMP0049,C049,Consumer,LCR below 100% minimum threshold,91.6385,>= 100%
+combined_stress,COLL001,High,CMP0049,C049,Consumer,Base collateral coverage below threshold,0.9132,>= 1.05x
+combined_stress,COLL002,High,CMP0049,C049,Consumer,Stressed collateral coverage below 1.0x,0.7763,>= 1.00x
+combined_stress,COLL001,High,CMP0051,C051,Energy,Base collateral coverage below threshold,1.0174,>= 1.05x
+combined_stress,COLL002,High,CMP0051,C051,Energy,Stressed collateral coverage below 1.0x,0.8648,>= 1.00x
+combined_stress,COLL002,High,CMP0052,C052,NBFC,Stressed collateral coverage below 1.0x,0.9306,>= 1.00x
+combined_stress,LIQ001,High,CMP0053,C053,Insurance,LCR below 100% minimum threshold,89.0173,>= 100%
+combined_stress,COLL001,High,CMP0053,C053,Insurance,Base collateral coverage below threshold,0.9462,>= 1.05x
+combined_stress,COLL002,High,CMP0053,C053,Insurance,Stressed collateral coverage below 1.0x,0.8042,>= 1.00x
+combined_stress,LIQ001,High,CMP0054,C054,Manufacturing,LCR below 100% minimum threshold,98.2833,>= 100%
+combined_stress,HEDGE001,Medium,CMP0055,C055,Manufacturing,Hedge ratio outside 80%-125% control band,0.7829,0.80 to 1.25
+combined_stress,COLL001,High,CMP0055,C055,Manufacturing,Base collateral coverage below threshold,0.8839,>= 1.05x
+combined_stress,COLL002,High,CMP0055,C055,Manufacturing,Stressed collateral coverage below 1.0x,0.7513,>= 1.00x
+combined_stress,COLL001,High,CMP0056,C056,Banking,Base collateral coverage below threshold,0.9409,>= 1.05x
+combined_stress,COLL002,High,CMP0056,C056,Banking,Stressed collateral coverage below 1.0x,0.7998,>= 1.00x
+combined_stress,COLL001,High,CMP0057,C057,Technology,Base collateral coverage below threshold,0.9097,>= 1.05x
+combined_stress,COLL002,High,CMP0057,C057,Technology,Stressed collateral coverage below 1.0x,0.7732,>= 1.00x
+combined_stress,COLL001,High,CMP0058,C058,NBFC,Base collateral coverage below threshold,0.9957,>= 1.05x
+combined_stress,COLL002,High,CMP0058,C058,NBFC,Stressed collateral coverage below 1.0x,0.8463,>= 1.00x
+combined_stress,COLL001,High,CMP0060,C060,Consumer,Base collateral coverage below threshold,0.9655,>= 1.05x
+combined_stress,COLL002,High,CMP0060,C060,Consumer,Stressed collateral coverage below 1.0x,0.8207,>= 1.00x
+combined_stress,LIQ001,High,CMP0061,C061,Healthcare,LCR below 100% minimum threshold,77.6407,>= 100%
+combined_stress,COLL001,High,CMP0061,C061,Healthcare,Base collateral coverage below threshold,0.9975,>= 1.05x
+combined_stress,COLL002,High,CMP0061,C061,Healthcare,Stressed collateral coverage below 1.0x,0.8479,>= 1.00x
+combined_stress,LIQ001,High,CMP0062,C062,Consumer,LCR below 100% minimum threshold,85.4346,>= 100%
+combined_stress,COLL002,High,CMP0062,C062,Consumer,Stressed collateral coverage below 1.0x,0.9983,>= 1.00x
+combined_stress,COLL001,High,CMP0063,C063,Insurance,Base collateral coverage below threshold,1.0218,>= 1.05x
+combined_stress,COLL002,High,CMP0063,C063,Insurance,Stressed collateral coverage below 1.0x,0.8686,>= 1.00x
+combined_stress,COLL001,High,CMP0064,C064,Healthcare,Base collateral coverage below threshold,1.0216,>= 1.05x
+combined_stress,COLL002,High,CMP0064,C064,Healthcare,Stressed collateral coverage below 1.0x,0.8683,>= 1.00x
+combined_stress,COLL001,High,CMP0065,C065,Manufacturing,Base collateral coverage below threshold,0.9669,>= 1.05x
+combined_stress,COLL002,High,CMP0065,C065,Manufacturing,Stressed collateral coverage below 1.0x,0.8219,>= 1.00x
+combined_stress,COLL001,High,CMP0066,C066,Insurance,Base collateral coverage below threshold,0.9141,>= 1.05x
+combined_stress,COLL002,High,CMP0066,C066,Insurance,Stressed collateral coverage below 1.0x,0.777,>= 1.00x
+combined_stress,COLL002,High,CMP0067,C067,Healthcare,Stressed collateral coverage below 1.0x,0.9218,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0068,C068,Insurance,Hedge ratio outside 80%-125% control band,0.7234,0.80 to 1.25
+combined_stress,COLL002,High,CMP0068,C068,Insurance,Stressed collateral coverage below 1.0x,0.937,>= 1.00x
+combined_stress,LIQ001,High,CMP0069,C069,Banking,LCR below 100% minimum threshold,95.3266,>= 100%
+combined_stress,COLL002,High,CMP0069,C069,Banking,Stressed collateral coverage below 1.0x,0.9331,>= 1.00x
+combined_stress,LIQ001,High,CMP0070,C070,Manufacturing,LCR below 100% minimum threshold,90.4081,>= 100%
+combined_stress,HEDGE001,Medium,CMP0071,C071,Energy,Hedge ratio outside 80%-125% control band,0.6909,0.80 to 1.25
+combined_stress,LIQ001,High,CMP0071,C071,Energy,LCR below 100% minimum threshold,78.7384,>= 100%
+combined_stress,STRESS001,Medium,CMP0071,C071,Energy,Stress P&L exceeds 2.5% of market value,-3.1422,Within +/-2.5%
+combined_stress,HEDGE001,Medium,CMP0072,C072,NBFC,Hedge ratio outside 80%-125% control band,0.7498,0.80 to 1.25
+combined_stress,COLL002,High,CMP0072,C072,NBFC,Stressed collateral coverage below 1.0x,0.9478,>= 1.00x
+combined_stress,COLL001,High,CMP0074,C074,NBFC,Base collateral coverage below threshold,0.9942,>= 1.05x
+combined_stress,COLL002,High,CMP0074,C074,NBFC,Stressed collateral coverage below 1.0x,0.845,>= 1.00x
+combined_stress,LIQ001,High,CMP0075,C075,Consumer,LCR below 100% minimum threshold,79.4111,>= 100%
+combined_stress,COLL002,High,CMP0075,C075,Consumer,Stressed collateral coverage below 1.0x,0.9041,>= 1.00x
+combined_stress,COLL001,High,CMP0076,C076,Manufacturing,Base collateral coverage below threshold,0.8887,>= 1.05x
+combined_stress,COLL002,High,CMP0076,C076,Manufacturing,Stressed collateral coverage below 1.0x,0.7554,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0077,C077,Insurance,Hedge ratio outside 80%-125% control band,0.6906,0.80 to 1.25
+combined_stress,LIQ001,High,CMP0077,C077,Insurance,LCR below 100% minimum threshold,90.9998,>= 100%
+combined_stress,COLL001,High,CMP0077,C077,Insurance,Base collateral coverage below threshold,0.9826,>= 1.05x
+combined_stress,COLL002,High,CMP0077,C077,Insurance,Stressed collateral coverage below 1.0x,0.8352,>= 1.00x
+combined_stress,LIQ001,High,CMP0078,C078,NBFC,LCR below 100% minimum threshold,93.8933,>= 100%
+combined_stress,COLL001,High,CMP0078,C078,NBFC,Base collateral coverage below threshold,1.0483,>= 1.05x
+combined_stress,COLL002,High,CMP0078,C078,NBFC,Stressed collateral coverage below 1.0x,0.8911,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0080,C080,Consumer,Hedge ratio outside 80%-125% control band,0.7543,0.80 to 1.25
+combined_stress,COLL001,High,CMP0080,C080,Consumer,Base collateral coverage below threshold,0.9095,>= 1.05x
+combined_stress,COLL002,High,CMP0080,C080,Consumer,Stressed collateral coverage below 1.0x,0.7731,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0081,C081,Healthcare,Hedge ratio outside 80%-125% control band,1.2592,0.80 to 1.25
+combined_stress,LIQ001,High,CMP0081,C081,Healthcare,LCR below 100% minimum threshold,90.4965,>= 100%
+combined_stress,COLL001,High,CMP0082,C082,Manufacturing,Base collateral coverage below threshold,0.9929,>= 1.05x
+combined_stress,COLL002,High,CMP0082,C082,Manufacturing,Stressed collateral coverage below 1.0x,0.844,>= 1.00x
+combined_stress,LIQ001,High,CMP0083,C083,NBFC,LCR below 100% minimum threshold,93.8263,>= 100%
+combined_stress,COLL002,High,CMP0083,C083,NBFC,Stressed collateral coverage below 1.0x,0.9591,>= 1.00x
+combined_stress,COLL002,High,CMP0084,C084,Energy,Stressed collateral coverage below 1.0x,0.9763,>= 1.00x
+combined_stress,COLL002,High,CMP0086,C086,Consumer,Stressed collateral coverage below 1.0x,0.9418,>= 1.00x
+combined_stress,COLL001,High,CMP0087,C087,Banking,Base collateral coverage below threshold,0.9822,>= 1.05x
+combined_stress,COLL002,High,CMP0087,C087,Banking,Stressed collateral coverage below 1.0x,0.8349,>= 1.00x
+combined_stress,LIQ001,High,CMP0088,C088,Insurance,LCR below 100% minimum threshold,96.1517,>= 100%
+combined_stress,COLL001,High,CMP0089,C089,Energy,Base collateral coverage below threshold,0.867,>= 1.05x
+combined_stress,COLL002,High,CMP0089,C089,Energy,Stressed collateral coverage below 1.0x,0.737,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0090,C090,Energy,Hedge ratio outside 80%-125% control band,0.6483,0.80 to 1.25
+combined_stress,COLL002,High,CMP0090,C090,Energy,Stressed collateral coverage below 1.0x,0.981,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0091,C091,Manufacturing,Hedge ratio outside 80%-125% control band,0.6648,0.80 to 1.25
+combined_stress,COLL001,High,CMP0091,C091,Manufacturing,Base collateral coverage below threshold,1.045,>= 1.05x
+combined_stress,COLL002,High,CMP0091,C091,Manufacturing,Stressed collateral coverage below 1.0x,0.8882,>= 1.00x
+combined_stress,COLL002,High,CMP0093,C093,Energy,Stressed collateral coverage below 1.0x,0.915,>= 1.00x
+combined_stress,COLL001,High,CMP0094,C094,Manufacturing,Base collateral coverage below threshold,0.952,>= 1.05x
+combined_stress,COLL002,High,CMP0094,C094,Manufacturing,Stressed collateral coverage below 1.0x,0.8092,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0095,C095,Healthcare,Hedge ratio outside 80%-125% control band,0.6124,0.80 to 1.25
+combined_stress,LIQ001,High,CMP0095,C095,Healthcare,LCR below 100% minimum threshold,75.6573,>= 100%
+combined_stress,COLL001,High,CMP0095,C095,Healthcare,Base collateral coverage below threshold,0.9723,>= 1.05x
+combined_stress,COLL002,High,CMP0095,C095,Healthcare,Stressed collateral coverage below 1.0x,0.8264,>= 1.00x
+combined_stress,COLL002,High,CMP0096,C096,Insurance,Stressed collateral coverage below 1.0x,0.9867,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0097,C097,NBFC,Hedge ratio outside 80%-125% control band,1.2627,0.80 to 1.25
+combined_stress,COLL002,High,CMP0097,C097,NBFC,Stressed collateral coverage below 1.0x,0.9878,>= 1.00x
+combined_stress,COLL001,High,CMP0098,C098,Consumer,Base collateral coverage below threshold,0.9717,>= 1.05x
+combined_stress,COLL002,High,CMP0098,C098,Consumer,Stressed collateral coverage below 1.0x,0.826,>= 1.00x
+combined_stress,COLL001,High,CMP0099,C099,Consumer,Base collateral coverage below threshold,1.025,>= 1.05x
+combined_stress,COLL002,High,CMP0099,C099,Consumer,Stressed collateral coverage below 1.0x,0.8713,>= 1.00x
+combined_stress,COLL001,High,CMP0100,C100,NBFC,Base collateral coverage below threshold,0.9716,>= 1.05x
+combined_stress,COLL002,High,CMP0100,C100,NBFC,Stressed collateral coverage below 1.0x,0.8259,>= 1.00x
+combined_stress,COLL001,High,CMP0101,C101,Energy,Base collateral coverage below threshold,0.9909,>= 1.05x
+combined_stress,COLL002,High,CMP0101,C101,Energy,Stressed collateral coverage below 1.0x,0.8422,>= 1.00x
+combined_stress,COLL001,High,CMP0103,C103,Energy,Base collateral coverage below threshold,0.8676,>= 1.05x
+combined_stress,COLL002,High,CMP0103,C103,Energy,Stressed collateral coverage below 1.0x,0.7374,>= 1.00x
+combined_stress,LIQ001,High,CMP0104,C104,Banking,LCR below 100% minimum threshold,85.2441,>= 100%
+combined_stress,COLL001,High,CMP0104,C104,Banking,Base collateral coverage below threshold,0.9134,>= 1.05x
+combined_stress,COLL002,High,CMP0104,C104,Banking,Stressed collateral coverage below 1.0x,0.7764,>= 1.00x
+combined_stress,LIQ001,High,CMP0105,C105,Energy,LCR below 100% minimum threshold,94.3708,>= 100%
+combined_stress,COLL002,High,CMP0105,C105,Energy,Stressed collateral coverage below 1.0x,0.9512,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0106,C106,Energy,Hedge ratio outside 80%-125% control band,0.7459,0.80 to 1.25
+combined_stress,LIQ001,High,CMP0106,C106,Energy,LCR below 100% minimum threshold,88.0546,>= 100%
+combined_stress,COLL002,High,CMP0106,C106,Energy,Stressed collateral coverage below 1.0x,0.9937,>= 1.00x
+combined_stress,STRESS001,Medium,CMP0106,C106,Energy,Stress P&L exceeds 2.5% of market value,-2.8007,Within +/-2.5%
+combined_stress,COLL001,High,CMP0107,C107,Energy,Base collateral coverage below threshold,0.9048,>= 1.05x
+combined_stress,COLL002,High,CMP0107,C107,Energy,Stressed collateral coverage below 1.0x,0.7691,>= 1.00x
+combined_stress,LIQ001,High,CMP0108,C108,Consumer,LCR below 100% minimum threshold,90.8795,>= 100%
+combined_stress,COLL001,High,CMP0108,C108,Consumer,Base collateral coverage below threshold,0.8631,>= 1.05x
+combined_stress,COLL002,High,CMP0108,C108,Consumer,Stressed collateral coverage below 1.0x,0.7336,>= 1.00x
+combined_stress,COLL001,High,CMP0110,C110,Consumer,Base collateral coverage below threshold,0.9266,>= 1.05x
+combined_stress,COLL002,High,CMP0110,C110,Consumer,Stressed collateral coverage below 1.0x,0.7876,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0111,C111,Insurance,Hedge ratio outside 80%-125% control band,1.3074,0.80 to 1.25
+combined_stress,LIQ001,High,CMP0111,C111,Insurance,LCR below 100% minimum threshold,88.558,>= 100%
+combined_stress,LIQ001,High,CMP0112,C112,Energy,LCR below 100% minimum threshold,94.2639,>= 100%
+combined_stress,HEDGE001,Medium,CMP0113,C113,Technology,Hedge ratio outside 80%-125% control band,0.7739,0.80 to 1.25
+combined_stress,LIQ001,High,CMP0113,C113,Technology,LCR below 100% minimum threshold,94.2277,>= 100%
+combined_stress,COLL001,High,CMP0113,C113,Technology,Base collateral coverage below threshold,0.9911,>= 1.05x
+combined_stress,COLL002,High,CMP0113,C113,Technology,Stressed collateral coverage below 1.0x,0.8424,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0114,C114,Manufacturing,Hedge ratio outside 80%-125% control band,1.2946,0.80 to 1.25
+combined_stress,LIQ001,High,CMP0114,C114,Manufacturing,LCR below 100% minimum threshold,75.0208,>= 100%
+combined_stress,COLL002,High,CMP0114,C114,Manufacturing,Stressed collateral coverage below 1.0x,0.8964,>= 1.00x
+combined_stress,COLL002,High,CMP0115,C115,Technology,Stressed collateral coverage below 1.0x,0.9505,>= 1.00x
+combined_stress,COLL002,High,CMP0116,C116,Technology,Stressed collateral coverage below 1.0x,0.9692,>= 1.00x
+combined_stress,LIQ001,High,CMP0117,C117,Banking,LCR below 100% minimum threshold,93.8664,>= 100%
+combined_stress,COLL002,High,CMP0117,C117,Banking,Stressed collateral coverage below 1.0x,0.9932,>= 1.00x
+combined_stress,COLL001,High,CMP0118,C118,NBFC,Base collateral coverage below threshold,0.9534,>= 1.05x
+combined_stress,COLL002,High,CMP0118,C118,NBFC,Stressed collateral coverage below 1.0x,0.8104,>= 1.00x
+combined_stress,HEDGE001,Medium,CMP0119,C119,NBFC,Hedge ratio outside 80%-125% control band,0.5893,0.80 to 1.25
+combined_stress,COLL001,High,CMP0119,C119,NBFC,Base collateral coverage below threshold,0.9993,>= 1.05x
+combined_stress,COLL002,High,CMP0119,C119,NBFC,Stressed collateral coverage below 1.0x,0.8494,>= 1.00x
+combined_stress,LIQ001,High,CMP0120,C120,Banking,LCR below 100% minimum threshold,76.6859,>= 100%
+combined_stress,COLL001,High,CMP0120,C120,Banking,Base collateral coverage below threshold,0.9737,>= 1.05x
+combined_stress,COLL002,High,CMP0120,C120,Banking,Stressed collateral coverage below 1.0x,0.8276,>= 1.00x

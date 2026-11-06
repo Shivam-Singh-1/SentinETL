@@ -1,0 +1,42 @@
+rule_id,severity,company_id,ticker,fiscal_period,field,issue,current_value,expected_value
+DQ001,High,CMP0007,C007,2025Q2,revenue,Required field is missing,,Non-null value
+DQ002,High,CMP0008,C008,2023Q2,total_assets,Unexpected negative value,-2878.74,>= 0
+DQ001,High,CMP0013,C013,2024Q2,revenue,Required field is missing,,Non-null value
+DQ001,High,CMP0024,C024,2024Q4,revenue,Required field is missing,,Non-null value
+DQ001,High,CMP0025,C025,2023Q3,revenue,Required field is missing,,Non-null value
+DQ001,High,CMP0049,C049,2025Q3,revenue,Required field is missing,,Non-null value
+DQ001,High,CMP0066,C066,2023Q1,revenue,Required field is missing,,Non-null value
+DQ001,High,CMP0086,C086,2025Q2,revenue,Required field is missing,,Non-null value
+DQ001,High,CMP0093,C093,2024Q1,revenue,Required field is missing,,Non-null value
+DQ002,High,CMP0093,C093,2025Q3,total_assets,Unexpected negative value,-6612.41,>= 0
+DQ002,High,CMP0102,C102,2025Q2,total_assets,Unexpected negative value,-22426.64,>= 0
+DQ001,High,CMP0108,C108,2023Q2,revenue,Required field is missing,,Non-null value
+DQ004,High,CMP0006,C006,2025Q2,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0006,C006,2025Q2,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0007,C007,2024Q4,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0007,C007,2024Q4,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0010,C010,2024Q1,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0010,C010,2024Q1,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0015,C015,2025Q1,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0015,C015,2025Q1,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0017,C017,2024Q3,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0017,C017,2024Q3,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0053,C053,2023Q3,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0053,C053,2023Q3,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0057,C057,2024Q2,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0057,C057,2024Q2,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0062,C062,2024Q3,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0062,C062,2024Q3,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0078,C078,2025Q3,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0078,C078,2025Q3,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0091,C091,2025Q2,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0091,C091,2025Q2,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0110,C110,2023Q4,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0110,C110,2023Q4,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0119,C119,2023Q1,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ004,High,CMP0119,C119,2023Q1,"company_id,ticker,fiscal_period",Duplicate company-period record,Duplicate,Unique company-period
+DQ007,Medium,CMP0036,C036,2024Q1,revenue,Quarter-on-quarter revenue movement requires review,3.4469,Change within +/-250%
+DQ007,Medium,CMP0077,C077,2024Q1,revenue,Quarter-on-quarter revenue movement requires review,2.8921,Change within +/-250%
+DQ007,Medium,CMP0077,C077,2025Q1,revenue,Quarter-on-quarter revenue movement requires review,2.9249,Change within +/-250%
+DQ007,Medium,CMP0085,C085,2024Q2,revenue,Quarter-on-quarter revenue movement requires review,3.5094,Change within +/-250%
+DQ007,Medium,CMP0102,C102,2024Q2,revenue,Quarter-on-quarter revenue movement requires review,3.1615,Change within +/-250%
